@@ -1,8 +1,8 @@
 [
   {
-    "name": "Travel",
+    "name": "Ecommerce",
     "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis dolorem harum dolorum debitis.",
-    "image": "travel",
+    "image": "ecommerce",
     "category": "mern",
     "links": {
       "view": "#",
@@ -10,9 +10,9 @@
     }
   },
   {
-    "name": "Movies",
+    "name": "Youtuber Page",
     "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis dolorem harum dolorum debitis.",
-    "image": "movies_",
+    "image": "youtuber",
     "category": "mern",
     "links": {
       "view": "#",
@@ -20,9 +20,9 @@
     }
   },
   {
-    "name": "Portfolio",
+    "name": "Car Rentel",
     "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis dolorem harum dolorum debitis.",
-    "image": "portfolio-",
+    "image": "self-drive",
     "category": "mern",
     "links": {
       "view": "#",
@@ -30,9 +30,9 @@
     }
   },
   {
-    "name": "G-food",
+    "name": "Youtube Blog",
     "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis dolorem harum dolorum debitis..",
-    "image": "g-food_",
+    "image": "easwaran-entertainment",
     "category": "mern",
     "links": {
       "view": "#",
@@ -41,9 +41,9 @@
   },
   
   {
-    "name": "Car Rental",
+    "name": "Food",
     "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis dolorem harum dolorum debitis.",
-    "image": "car_rental2_",
+    "image": "apl-foods",
     "category": "basicweb",
     "links": {
       "view": "#",
@@ -51,9 +51,9 @@
     }
   },
   {
-    "name": "Dlife",
+    "name": "Hotel",
     "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis dolorem harum dolorum debitis. Magni, iste! Perferendis laborum reprehenderit dolorum totam.",
-    "image": "d'life_",
+    "image": "arya-bhavan",
     "category": "mern",
     "links": {
       "view": "#",
