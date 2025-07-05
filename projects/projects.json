@@ -1,39 +1,39 @@
 [
   {
     "name": "Ecommerce",
-    "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis dolorem harum dolorum debitis.",
+    "desc": "Built a full-stack e-commerce platform using <strong>MongoDB, Express.js, React (with Vite), and Node.js (MERN)</strong> with <strong>Bootstrap</strong> for responsive UI styling, <strong>Redux</strong> for state management, <strong>Razorpay </strong>for payment gateway, <strong>Mongoose </strong>for database connectivity using <strong>JavaScript (ES6+ with ESM) + SWC &amp; TypeScript (ES6+ with ESM) + SWC.</strong>",
     "image": "ecommerce",
-    "category": "mern",
+    "category": "javascript",
     "links": {
-      "view": "#",
-      "code": "#"
+      "view": "https://ecommerce3.pages.dev",
+      "code": "https://github.com/Muthu-AMMEW/ecommerce-mern-js-vite-bs"
     }
   },
   {
     "name": "Youtuber Page",
-    "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis dolorem harum dolorum debitis.",
+    "desc": "Built a full-stack web application for YouTuber using <strong>MongoDB, Express.js, React (with Vite), and Node.js (MERN)</strong> with <strong>Bootstrap</strong> for responsive UI styling, <strong>Redux</strong> for state management, <strong>Mongoose </strong>for database connectivity using <strong>JavaScript (ES6+ with ESM) + SWC. </strong>",
     "image": "youtuber",
-    "category": "mern",
+    "category": "javascript",
     "links": {
-      "view": "#",
-      "code": "#"
+      "view": "https://youtuber3.pages.dev",
+      "code": "https://github.com/Muthu-AMMEW/youtuber-mern-js-vite-bs"
     }
   },
   {
     "name": "Car Rentel",
-    "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis dolorem harum dolorum debitis.",
+    "desc": "Built a full-stack web application for car lending using <strong>MongoDB, Express.js, React (with Vite), and Node.js (MERN)</strong> with <strong>Bootstrap</strong> for responsive UI styling, <strong>Redux</strong> for state management, <strong>Razorpay </strong>for payment gateway, <strong>Mongoose </strong>for database connectivity using <strong>JavaScript (ES6+ with ESM) + SWC.</strong>",
     "image": "self-drive",
-    "category": "mern",
+    "category": "javascript",
     "links": {
-      "view": "#",
-      "code": "#"
+      "view": "https://selfdrive.pages.dev",
+      "code": "https://github.com/Muthu-AMMEW/selfdrive-mern-js-vite-bs"
     }
   },
   {
-    "name": "Youtube Blog",
-    "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis dolorem harum dolorum debitis..",
+    "name": "Video Blog",
+    "desc": "Built a full-stack web application for a video blog using <strong>MongoDB, Express.js, React (with CRA), and Node.js (MERN)</strong> with <strong>Bootstrap</strong> for responsive UI styling, <strong>Redux</strong> for state management, and <strong>Mongoose </strong>for database connectivity using <strong>JavaScript (ES6).</strong>",
     "image": "easwaran-entertainment",
-    "category": "mern",
+    "category": "javascript",
     "links": {
       "view": "#",
       "code": "#"
@@ -42,9 +42,9 @@
   
   {
     "name": "Food",
-    "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis dolorem harum dolorum debitis.",
+    "desc": "Built a full-stack web application for food order using <strong>MongoDB, Express.js, React (with CRA), and Node.js (MERN)</strong> with <strong>Bootstrap</strong> for responsive UI styling, <strong>Redux</strong> for state management, and <strong>Mongoose </strong>for database connectivity using <strong>JavaScript (ES6).</strong>",
     "image": "apl-foods",
-    "category": "basicweb",
+    "category": "javascript",
     "links": {
       "view": "#",
       "code": "#"
@@ -52,9 +52,9 @@
   },
   {
     "name": "Hotel",
-    "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis dolorem harum dolorum debitis. Magni, iste! Perferendis laborum reprehenderit dolorum totam.",
+    "desc": "Built a full-stack web application for hotel management room booking using <strong>MongoDB, Express.js, React (with CRA), and Node.js (MERN)</strong> with <strong>Bootstrap</strong> for responsive UI styling, <strong>Redux</strong> for state management, and <strong>Mongoose </strong>for database connectivity using <strong>JavaScript (ES6).</strong>",
     "image": "arya-bhavan",
-    "category": "mern",
+    "category": "javascript",
     "links": {
       "view": "#",
       "code": "#"
