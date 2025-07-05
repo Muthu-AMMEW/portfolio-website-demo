@@ -1,9 +1,19 @@
 [
   {
-    "name": "Ecommerce",
-    "desc": "Built a full-stack e-commerce platform using <strong>MongoDB, Express.js, React (with Vite), and Node.js (MERN)</strong> with <strong>Bootstrap</strong> for responsive UI styling, <strong>Redux</strong> for state management, <strong>Razorpay </strong>for payment gateway, <strong>Mongoose </strong>for database connectivity using <strong>JavaScript (ES6+ with ESM) + SWC &amp; TypeScript (ES6+ with ESM) + SWC.</strong>",
+    "name": "Ecommerce (JavaScript)",
+    "desc": "Built a full-stack e-commerce platform using <strong>MongoDB, Express.js, React (with Vite), and Node.js (MERN)</strong> with <strong>Bootstrap</strong> for responsive UI styling, <strong>Redux</strong> for state management, <strong>Razorpay </strong>for payment gateway, <strong>Mongoose </strong>for database connectivity using <strong>JavaScript (ES6+ with ESM) + SWC.</strong>",
     "image": "ecommerce",
     "category": "javascript",
+    "links": {
+      "view": "https://ecommerce3.pages.dev",
+      "code": "https://github.com/Muthu-AMMEW/ecommerce-mern-js-vite-bs"
+    }
+  },
+  {
+    "name": "Ecommerce (TypeScript)",
+    "desc": "Built a full-stack e-commerce platform using <strong>MongoDB, Express.js, React (with Vite), and Node.js (MERN)</strong> with <strong>Bootstrap</strong> for responsive UI styling, <strong>Redux</strong> for state management, <strong>Razorpay </strong>for payment gateway, <strong>Mongoose </strong>for database connectivity using <strong>TypeScript (ES6+ with ESM) + SWC.</strong>",
+    "image": "ecommerce",
+    "category": "typescript",
     "links": {
       "view": "https://ecommerce3.pages.dev",
       "code": "https://github.com/Muthu-AMMEW/ecommerce-mern-js-vite-bs"
@@ -30,17 +40,6 @@
     }
   },
   {
-    "name": "Video Blog",
-    "desc": "Built a full-stack web application for a video blog using <strong>MongoDB, Express.js, React (with CRA), and Node.js (MERN)</strong> with <strong>Bootstrap</strong> for responsive UI styling, <strong>Redux</strong> for state management, and <strong>Mongoose </strong>for database connectivity using <strong>JavaScript (ES6).</strong>",
-    "image": "easwaran-entertainment",
-    "category": "javascript",
-    "links": {
-      "view": "#",
-      "code": "#"
-    }
-  },
-  
-  {
     "name": "Food",
     "desc": "Built a full-stack web application for food order using <strong>MongoDB, Express.js, React (with CRA), and Node.js (MERN)</strong> with <strong>Bootstrap</strong> for responsive UI styling, <strong>Redux</strong> for state management, and <strong>Mongoose </strong>for database connectivity using <strong>JavaScript (ES6).</strong>",
     "image": "apl-foods",
@@ -54,6 +53,16 @@
     "name": "Hotel",
     "desc": "Built a full-stack web application for hotel management room booking using <strong>MongoDB, Express.js, React (with CRA), and Node.js (MERN)</strong> with <strong>Bootstrap</strong> for responsive UI styling, <strong>Redux</strong> for state management, and <strong>Mongoose </strong>for database connectivity using <strong>JavaScript (ES6).</strong>",
     "image": "arya-bhavan",
+    "category": "javascript",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Video Blog",
+    "desc": "Built a full-stack web application for a video blog using <strong>MongoDB, Express.js, React (with CRA), and Node.js (MERN)</strong> with <strong>Bootstrap</strong> for responsive UI styling, <strong>Redux</strong> for state management, and <strong>Mongoose </strong>for database connectivity using <strong>JavaScript (ES6).</strong>",
+    "image": "easwaran-entertainment",
     "category": "javascript",
     "links": {
       "view": "#",
