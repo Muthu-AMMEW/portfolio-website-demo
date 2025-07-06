@@ -177,7 +177,7 @@ header .navbar ul li a:hover{
   justify-content: center;
   align-items: center;
 }
-.work .button-group .btn{
+.work .button-group .mm-btn{
   outline: none;
   padding: 1rem 2rem;
   background: transparent;
@@ -187,11 +187,11 @@ header .navbar ul li a:hover{
   cursor: pointer;
   font-weight: 500;
 }
-.work .button-group .btn:hover{
+.work .button-group .mm-btn:hover{
   background-color: #fff;
   color: #000;
 }
-.work .button-group .btn.is-checked{
+.work .button-group .mm-btn .is-checked{
   background-color: #fff;
   color: #000;
 }
@@ -257,7 +257,7 @@ header .navbar ul li a:hover{
   width: 100%;
   margin-top: 2rem;
 }
-.work .desc .btns .btn{
+.work .desc .btns .mm-btn{
   line-height: 0;
   display: inline;
   padding: 1.5rem 2.5rem;
@@ -267,7 +267,7 @@ header .navbar ul li a:hover{
   background: rgb(12, 12, 12);
   margin-right: 2rem;
 }
-.work .desc .btns .btn:hover{
+.work .desc .btns .mm-btn:hover{
   background: #310ae0f5;
 }
 
@@ -290,7 +290,7 @@ header .navbar ul li a:hover{
   margin-bottom: 2rem;
   margin-top: 4rem;
 }
-.backbtn .btn {
+.backbtn .mm-btn {
   position: relative;
   line-height: 0;
   padding: 1.6rem 3rem;
@@ -301,21 +301,21 @@ header .navbar ul li a:hover{
   box-shadow: 0px 2px 4px rgba(48, 68, 247, .3);
   text-align: center;
 }
-.backbtn .btn span {
+.backbtn .mm-btn span {
   font-weight: 600;
   font-size: 1.7rem;
   font-family: 'Nunito', sans-serif;
 }
-.backbtn .btn i {
+.backbtn .mm-btn i {
   margin-right: 0.5rem;
   font-size: 1.5rem;
   transition: 0.3s;
 }
-.backbtn .btn:hover{
+.backbtn .mm-btn:hover{
   background: #ffffff;
   color: #000;
 }
-.backbtn .btn:hover i {
+.backbtn .mm-btn:hover i {
   transform: translateX(-8px);
 }
 /* work section ends */

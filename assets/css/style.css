@@ -243,7 +243,7 @@ header .navbar ul li a:hover {
   font-weight: 600;
   padding: 1rem 0;
 }
-.home .btn {
+.home .mm-btn {
   margin-top: 1rem;
   position: absolute;
   line-height: 0;
@@ -255,20 +255,20 @@ header .navbar ul li a:hover {
   box-shadow: 0px 5px 18px rgba(48, 68, 247, 0.6);
   font-family: "Nunito", sans-serif;
 }
-.home .btn span {
+.home .mm-btn span {
   font-weight: 700;
   font-size: 1.7rem;
   letter-spacing: 0.1rem;
 }
-.home .btn i {
+.home .mm-btn i {
   margin-left: 0.3rem;
   font-size: 1.5rem;
   transition: 0.3s;
 }
-.home .btn:hover {
+.home .mm-btn:hover {
   background: #1a047e;
 }
-.home .btn:hover i {
+.home .mm-btn:hover i {
   transform: translateX(5px);
 }
 /* social icons start */
@@ -325,7 +325,7 @@ header .navbar ul li a:hover {
 
 /* hero media queries starts*/
 @media (max-width: 450px) {
-  .home .btn {
+  .home .mm-btn {
     margin: 4rem 0;
   }
   .socials {
@@ -409,7 +409,7 @@ header .navbar ul li a:hover {
 .resumebtn {
   margin-top: 6rem;
 }
-.resumebtn .btn {
+.resumebtn .mm-btn {
   padding: 1.7rem 3rem;
   border-radius: 0.5em;
   transition: 0.3s;
@@ -418,20 +418,20 @@ header .navbar ul li a:hover {
   box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
   font-family: "Nunito", sans-serif;
 }
-.resumebtn .btn span {
+.resumebtn .mm-btn span {
   font-weight: 600;
   font-size: 1.8rem;
   letter-spacing: 0.1rem;
 }
-.resumebtn .btn i {
+.resumebtn .mm-btn i {
   margin-left: 0.3rem;
   font-size: 1.2rem;
   transition: 0.3s;
 }
-.resumebtn .btn:hover {
+.resumebtn .mm-btn:hover {
   background: #1a047e;
 }
-.resumebtn .btn:hover i {
+.resumebtn .mm-btn:hover i {
   transform: translateX(5px);
 }
 /* about media queries starts*/
@@ -711,7 +711,7 @@ header .navbar ul li a:hover {
   width: 100%;
   margin-top: 2rem;
 }
-.work .desc .btns .btn {
+.work .desc .btns .mm-btn {
   line-height: 0;
   display: inline;
   padding: 1.5rem 2.5rem;
@@ -721,14 +721,14 @@ header .navbar ul li a:hover {
   background: rgb(12, 12, 12);
   margin-right: 2rem;
 }
-.work .desc .btns .btn:hover {
+.work .desc .btns .mm-btn:hover {
   background: #310ae0f5;
 }
 .work .viewall {
   display: flex;
   justify-content: center;
 }
-.work .viewall .btn {
+.work .viewall .mm-btn {
   position: relative;
   line-height: 0;
   padding: 1.6rem 3rem;
@@ -740,21 +740,21 @@ header .navbar ul li a:hover {
   box-shadow: 0px 5px 10px rgba(65, 84, 241, 0.4);
   text-align: center;
 }
-.work .viewall .btn span {
+.work .viewall .mm-btn span {
   font-weight: 600;
   font-size: 1.7rem;
   font-family: "Nunito", sans-serif;
 }
-.work .viewall .btn i {
+.work .viewall .mm-btn i {
   margin-left: 0.3rem;
   font-size: 1.5rem;
   transition: 0.3s;
 }
-.work .viewall .btn:hover {
+.work .viewall .mm-btn:hover {
   background: #fff;
   color: #000;
 }
-.work .viewall .btn:hover i {
+.work .viewall .mm-btn:hover i {
   transform: translateX(5px);
 }
 /* work section ends */
@@ -861,7 +861,7 @@ header .navbar ul li a:hover {
   display: flex;
   justify-content: center;
 }
-.morebtn .btn {
+.morebtn .mm-btn {
   position: relative;
   line-height: 0;
   padding: 1.6rem 3rem;
@@ -872,20 +872,20 @@ header .navbar ul li a:hover {
   box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
   text-align: center;
 }
-.morebtn .btn span {
+.morebtn .mm-btn span {
   font-weight: 600;
   font-size: 1.7rem;
   font-family: "Nunito", sans-serif;
 }
-.morebtn .btn i {
+.morebtn .mm-btn i {
   margin-left: 0.3rem;
   font-size: 1.5rem;
   transition: 0.3s;
 }
-.morebtn .btn:hover {
+.morebtn .mm-btn:hover {
   background: #1a047e;
 }
-.morebtn .btn:hover i {
+.morebtn .mm-btn:hover i {
   transform: translateX(5px);
 }
 
