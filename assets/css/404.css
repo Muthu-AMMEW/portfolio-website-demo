@@ -82,7 +82,7 @@ header .mm-navbar ul li a{
   text-decoration: none;
   letter-spacing: 0.04rem;
 }
-header .mm-navbar ul li a.active,
+header .mm-navbar ul li a.mm-active,
 header .mm-navbar ul li a:hover{
   color: #011aff;
   border-bottom: .2rem solid #011aff;
@@ -128,7 +128,7 @@ header .mm-navbar ul li a:hover{
     color: #fff;
     font-size: 2rem;
   }
-  header .mm-navbar ul li a.active,
+  header .mm-navbar ul li a.mm-active,
   header .mm-navbar ul li a:hover{
     padding: 1rem;
     color: #fff;

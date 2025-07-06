@@ -26,10 +26,6 @@ body {
   color: #fff;
 }
 
-html {
-  font-size: 62.5%;
-  overflow-x: hidden;
-}
 html::-webkit-scrollbar {
   width: 0.8rem;
 }
@@ -115,7 +111,7 @@ header .mm-navbar ul li a {
   letter-spacing: 0.04rem;
   transition: 0.2s;
 }
-header .mm-navbar ul li a.active,
+header .mm-navbar ul li a.mm-active,
 header .mm-navbar ul li a:hover {
   color: #011aff;
   border-bottom: 0.2rem solid #011aff;
@@ -162,7 +158,7 @@ header .mm-navbar ul li a:hover {
     color: #fff;
     font-size: 2rem;
   }
-  header .mm-navbar ul li a.active,
+  header .mm-navbar ul li a.mm-active,
   header .mm-navbar ul li a:hover {
     padding: 1rem;
     color: #fff;
