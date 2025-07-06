@@ -348,18 +348,18 @@ header .navbar ul li a:hover {
 .about {
   background: rgb(255, 255, 255);
 }
-.about .row {
+.about .mm-row {
   display: flex;
   flex-direction: row;
   gap: 2rem;
   flex-wrap: wrap;
   padding: 4rem;
 }
-.about .row .image {
+.about .mm-row .image {
   text-align: center;
   flex: 1 1 35rem;
 }
-.about .row .image img {
+.about .mm-row .image img {
   margin: 4rem;
   width: 30rem;
   height: auto;
@@ -369,41 +369,41 @@ header .navbar ul li a:hover {
   transition: 0.3s;
   cursor: pointer;
 }
-.about .row .image img:hover {
+.about .mm-row .image img:hover {
   mix-blend-mode: normal;
 }
-.about .row .content {
+.about .mm-row .content {
   flex: 1 1 45rem;
   padding: 3rem;
 }
-.about .row .content h3 {
+.about .mm-row .content h3 {
   color: rgb(27, 27, 27);
   font-size: 2.5rem;
 }
-.about .row .content .tag {
+.about .mm-row .content .tag {
   font-size: 1.4rem;
   color: #020133;
   font-weight: 600;
   margin-top: 1rem;
 }
-.about .row .content p {
+.about .mm-row .content p {
   font-size: 1.5rem;
   margin-top: 1.5rem;
   font-family: "Nunito";
   font-weight: 600;
   text-transform: none;
 }
-.about .row .content .box-container {
+.about .mm-row .content .box-container {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
   font-family: "Nunito";
   font-weight: 600;
 }
-.about .row .content .box-container .box p {
+.about .mm-row .content .box-container .box p {
   text-transform: none;
 }
-.about .row .content .box-container .box p span {
+.about .mm-row .content .box-container .box p span {
   color: #011aff;
 }
 .resumebtn {
@@ -436,22 +436,22 @@ header .navbar ul li a:hover {
 }
 /* about media queries starts*/
 @media screen and (max-width: 600px) {
-  .about .row .image {
+  .about .mm-row .image {
     margin-top: 2rem;
   }
-  .about .row .image img {
+  .about .mm-row .image img {
     margin: 0 auto;
     width: 80%;
     mix-blend-mode: normal;
   }
-  .about .row {
+  .about .mm-row {
     padding: 0.5rem;
     margin-bottom: 7rem;
   }
-  .about .row .content {
+  .about .mm-row .content {
     padding: 1rem;
   }
-  .about .row .content .box-container {
+  .about .mm-row .content .box-container {
     gap: 0;
   }
 }
@@ -478,7 +478,7 @@ header .navbar ul li a:hover {
   margin: auto;
   margin-top: 2rem;
 }
-.skills .mm-container .row {
+.skills .mm-container .mm-row {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   flex-wrap: wrap;
@@ -518,7 +518,7 @@ header .navbar ul li a:hover {
     padding: 0;
     margin: 0;
   }
-  .skills .mm-container .row {
+  .skills .mm-container .mm-row {
     grid-template-columns: repeat(2, 1fr);
     margin: 1rem;
     padding: 2rem 0.2rem 2rem 0.2rem;
