@@ -180,14 +180,14 @@ header .navbar ul li a:hover{
   margin-left: -3px;
   z-index: -2;
 }
-.experience .container {
+.experience .mm-container {
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
   width: 50%;
 }
 /*circles on timeline*/
-.experience .container::after {    
+.experience .mm-container::after {    
   content: "\f0b1";
   position: absolute;
   width: 25px;
@@ -299,12 +299,12 @@ header .navbar ul li a:hover{
   .experience .timeline::after {
   left: 31px;
   }
-  .experience .container {
+  .experience .mm-container {
   width: 100%;
   padding-left: 70px;
   padding-right: 25px;
   }
-  .experience .container::before {
+  .experience .mm-container::before {
   left: 60px;
   border: medium solid #f68c09;
   border-width: 10px 10px 10px 0;
@@ -319,7 +319,7 @@ header .navbar ul li a:hover{
   .experience .right {
   left: 0%;
   }
-  .experience .container::after {
+  .experience .mm-container::after {
     font-size: 2.2rem;;
   }
 }

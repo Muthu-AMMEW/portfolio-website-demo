@@ -469,7 +469,7 @@ header .navbar ul li a:hover {
 .skills .heading span {
   color: rgb(255, 230, 0);
 }
-.skills .container {
+.skills .mm-container {
   background: rgba(0, 0, 22, 0.4);
   color: #fff;
   border-radius: 1rem;
@@ -478,13 +478,13 @@ header .navbar ul li a:hover {
   margin: auto;
   margin-top: 2rem;
 }
-.skills .container .row {
+.skills .mm-container .row {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   flex-wrap: wrap;
   gap: 1.8rem;
 }
-.skills .container .bar {
+.skills .mm-container .bar {
   margin-bottom: 15px;
   padding: 10px;
   border-radius: 1rem;
@@ -492,21 +492,21 @@ header .navbar ul li a:hover {
   background: rgba(0, 0, 22, 0.9);
   transition: 0.2s;
 }
-.skills .container .bar:hover {
+.skills .mm-container .bar:hover {
   box-shadow: 0 8px 10px rgba(0, 2, 68, 0.8) !important;
   background-color: rgba(0, 0, 0, 0.9) !important;
 }
-.skills .container .bar .info {
+.skills .mm-container .bar .info {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
   margin-top: 1rem;
 }
-.skills .container .bar .info i {
+.skills .mm-container .bar .info i {
   font-size: 4rem;
 }
-.skills .container .bar .info span {
+.skills .mm-container .bar .info span {
   font-size: 2rem;
   font-weight: 500;
   font-family: "Poppins";
@@ -514,17 +514,17 @@ header .navbar ul li a:hover {
 }
 /* skills media queries starts*/
 @media screen and (max-width: 600px) {
-  .skills .container {
+  .skills .mm-container {
     padding: 0;
     margin: 0;
   }
-  .skills .container .row {
+  .skills .mm-container .row {
     grid-template-columns: repeat(2, 1fr);
     margin: 1rem;
     padding: 2rem 0.2rem 2rem 0.2rem;
     gap: 1rem;
   }
-  .skills .container {
+  .skills .mm-container {
     margin-top: 5px;
     width: 100%;
   }
@@ -776,14 +776,14 @@ header .navbar ul li a:hover {
   margin-left: -3px;
   z-index: -2;
 }
-.experience .container {
+.experience .mm-container {
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
   width: 50%;
 }
 /*circles on timeline*/
-.experience .container::after {
+.experience .mm-container::after {
   content: "\f0b1";
   position: absolute;
   width: 25px;
@@ -900,15 +900,15 @@ header .navbar ul li a:hover {
   .experience .timeline::after {
     left: 31px;
   }
-  .experience .container {
+  .experience .mm-container {
     width: 100%;
     padding-left: 8rem;
     padding-right: 2rem;
   }
-  .experience .container::after {
+  .experience .mm-container::after {
     font-size: 2.2rem;
   }
-  .experience .container::before {
+  .experience .mm-container::before {
     left: 61px;
     border: medium solid #f68c09;
     border-width: 10px 10px 10px 0;
@@ -935,7 +935,7 @@ header .navbar ul li a:hover {
   background: #e5ecfb;
   min-height: 60vh;
 }
-.contact .container {
+.contact .mm-container {
   max-width: 1050px;
   width: 100%;
   background: #fff;
@@ -943,7 +943,7 @@ header .navbar ul li a:hover {
   margin: 2rem 5rem;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
 }
-.contact .container .content {
+.contact .mm-container .content {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1070,10 +1070,10 @@ form .button-area {
   .contact {
     min-height: 70vh;
   }
-  .contact .container {
+  .contact .mm-container {
     margin: 3rem 0 2rem 0;
   }
-  .contact .container .content {
+  .contact .mm-container .content {
     padding: 18px 12px;
   }
   .contact .content .image-box {
