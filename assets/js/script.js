@@ -10,9 +10,9 @@ $(document).ready(function () {
         $('.mm-navbar').removeClass('nav-toggle');
 
         if (window.scrollY > 60) {
-            document.querySelector('#scroll-top').classList.add('active');
+            document.querySelector('#scroll-top').classList.add('mm-active');
         } else {
-            document.querySelector('#scroll-top').classList.remove('active');
+            document.querySelector('#scroll-top').classList.remove('mm-active');
         }
 
         // scroll spy
@@ -23,8 +23,8 @@ $(document).ready(function () {
             let id = $(this).attr('id');
 
             if (top > offset && top < offset + height) {
-                $('.mm-navbar ul li a').removeClass('active');
-                $('.mm-navbar').find(`[href="#${id}"]`).addClass('active');
+                $('.mm-navbar ul li a').removeClass('mm-active');
+                $('.mm-navbar').find(`[href="#${id}"]`).addClass('mm-active');
             }
         });
     });

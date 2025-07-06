@@ -93,7 +93,7 @@ header .mm-navbar ul li a{
   text-decoration: none;
   letter-spacing: 0.04rem;
 }
-header .mm-navbar ul li a.active,
+header .mm-navbar ul li a.mm-active,
 header .mm-navbar ul li a:hover{
   color: #011aff;
   border-bottom: .2rem solid #011aff;
@@ -139,7 +139,7 @@ header .mm-navbar ul li a:hover{
     color: #fff;
     font-size: 2rem;
   }
-  header .mm-navbar ul li a.active,
+  header .mm-navbar ul li a.mm-active,
   header .mm-navbar ul li a:hover{
     padding: 1rem;
     color: #fff;
@@ -460,7 +460,7 @@ header .mm-navbar ul li a:hover{
   transition: 1s linear;
   z-index: 1000;
 }
-#scroll-top.active{
+#scroll-top.mm-active{
   top: calc(100% - 12rem);
 }
 /* scroll top ends */
