@@ -248,4 +248,4 @@ srtop.reveal('.experience .timeline .mm-container', { interval: 400 });
 
 /* SCROLL CONTACT */
 srtop.reveal('.contact .mm-container', { delay: 400 });
-srtop.reveal('.contact .mm-container .form-group', { delay: 400 });
+srtop.reveal('.contact .mm-container .mm-form-group', { delay: 400 });

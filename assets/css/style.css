@@ -962,12 +962,12 @@ header .navbar ul li a:hover {
   width: 45%;
   margin-right: 3.5rem;
 }
-form .form-group {
+form .mm-form-group {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.form-group .field {
+.mm-form-group .field {
   height: 50px;
   display: flex;
   position: relative;
