@@ -2,12 +2,12 @@ $(document).ready(function () {
 
     $('#menu').click(function () {
         $(this).toggleClass('fa-times');
-        $('.navbar').toggleClass('nav-toggle');
+        $('.mm-navbar').toggleClass('nav-toggle');
     });
 
     $(window).on('scroll load', function () {
         $('#menu').removeClass('fa-times');
-        $('.navbar').removeClass('nav-toggle');
+        $('.mm-navbar').removeClass('nav-toggle');
 
         if (window.scrollY > 60) {
             document.querySelector('#scroll-top').classList.add('active');
@@ -23,8 +23,8 @@ $(document).ready(function () {
             let id = $(this).attr('id');
 
             if (top > offset && top < offset + height) {
-                $('.navbar ul li a').removeClass('active');
-                $('.navbar').find(`[href="#${id}"]`).addClass('active');
+                $('.mm-navbar ul li a').removeClass('active');
+                $('.mm-navbar').find(`[href="#${id}"]`).addClass('active');
             }
         });
     });
