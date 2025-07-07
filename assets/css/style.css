@@ -172,11 +172,7 @@ header .mm-navbar ul li a:hover {
 /* hero section starts*/
 .home {
   position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.94rem;
   min-height: 100vh;
-  align-items: center;
 }
 .home #particles-js {
   position: absolute;
@@ -194,17 +190,14 @@ header .mm-navbar ul li a:hover {
   width: 100%;
 }
 .home .content {
-  flex: 1 1 40rem;
-  padding-top: 0.63rem;
   z-index: 1;
 }
 .home .image {
-  flex: 1 1 40rem;
   z-index: 1;
 }
 .home .image img {
-  width: 70%;
-  margin-left: 3.75rem;
+  width: 18.75rem;
+  height: auto;
   border-radius: 50%;
   box-shadow: 0 1.25px 5px rgba(0, 0, 0, 0.3);
   cursor: pointer;
@@ -236,8 +229,6 @@ header .mm-navbar ul li a:hover {
 }
 .home .mm-btn {
   margin-top: 0.63rem;
-  position: absolute;
-  line-height: 0;
   padding: 1rem 1.88rem;
   border-radius: 4em;
   transition: 0.5s;
@@ -265,7 +256,7 @@ header .mm-navbar ul li a:hover {
 /* social icons start */
 .socials {
   position: relative;
-  margin-top: 5.63rem;
+  margin-top: 3rem;
 }
 .socials .social-icons {
   padding-left: 0;
@@ -313,26 +304,6 @@ header .mm-navbar ul li a:hover {
   background-color: #ee00da;
 }
 /* social icons end */
-
-/* hero media queries starts*/
-@media (max-width: 450px) {
-  .home .mm-btn {
-    margin: 2.5rem 0;
-  }
-  .socials {
-    margin-top: 7.5rem;
-  }
-  .home .image img {
-    margin-top: -7.5rem;
-  }
-  .home .content p {
-    font-size: 1.38rem;
-  }
-  .home .content p span {
-    font-size: 1.38rem;
-  }
-}
-/* hero media queries ends*/
 /* hero section end */
 
 /* about section starts */
@@ -412,28 +383,6 @@ header .mm-navbar ul li a:hover {
 .resumebtn .mm-btn:hover i {
   transform: translateX(3.13px);
 }
-/* about media queries starts*/
-@media screen and (max-width: 600px) {
-  .about .mm-row .image {
-    margin-top: 1.25rem;
-  }
-  .about .mm-row .image img {
-    margin: 0 auto;
-    width: 80%;
-    mix-blend-mode: normal;
-  }
-  .about .mm-row {
-    padding: 0.31rem;
-    margin-bottom: 4.38rem;
-  }
-  .about .mm-row .content {
-    padding: 0.63rem;
-  }
-  .about .mm-row .content .box-container {
-    gap: 0;
-  }
-}
-/* about media queries ends*/
 /* about section ends */
 
 /* skills section starts */

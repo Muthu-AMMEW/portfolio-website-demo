@@ -59,7 +59,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Jigar Sable";
+            document.title = "Portfolio | Muthu Arivazhagan";
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
         else {
@@ -71,7 +71,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["frontend development", "backend development", "fullstack development", "web development"],
+    strings: ["Frontend Development", "Backend Development", "Fullstack Development", "Web Development"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
@@ -109,7 +109,7 @@ function showProjects(projects) {
     let projectHTML = "";
     projects.slice(0, 6).filter(project => project.category != "android").forEach(project => {
         projectHTML += `
-        <div class="box tilt">
+      <div class="box tilt">
       <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
       <div class="content">
         <div class="tag">

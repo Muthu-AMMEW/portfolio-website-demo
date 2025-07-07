@@ -8,40 +8,12 @@
     "icon": "https://img.icons8.com/color/48/000000/css3.png"
   },
   {
-    "name": "JavaScript",
-    "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
-  },
-  {
     "name": "ReactJS",
     "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png"
   },
   {
     "name": "Redux",
     "icon": "https://img.icons8.com/color/48/000000/redux.png"
-  },
-  {
-    "name": "NodeJS",
-    "icon": "https://img.icons8.com/color/48/000000/nodejs.png"
-  },
-  {
-    "name": "ExpressJS",
-    "icon": "https://img.icons8.com/fluency/48/000000/node-js.png"
-  },
-  {
-    "name": "MongoDB",
-    "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
-  },
-  {
-    "name": "Next.js",
-    "icon": "/assets/images/skills/next.js-logo.png"
-  },
-  {
-    "name": "Git VCS",
-    "icon": "https://img.icons8.com/color/48/000000/git.png"
-  },
-  {
-    "name": "GitHub",
-    "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
   },
   {
     "name": "Bootstrap",
@@ -56,6 +28,78 @@
     "icon": "https://img.icons8.com/color/48/000000/sass.png"
   },
   {
+    "name": "NodeJS",
+    "icon": "https://img.icons8.com/color/48/000000/nodejs.png"
+  },
+  {
+    "name": "ExpressJS",
+    "icon": "https://img.icons8.com/fluency/48/000000/node-js.png"
+  },
+  {
+    "name": "MongoDB",
+    "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
+  },
+  {
+    "name": "Mongoose",
+    "icon": "/assets/images/skills/mongoose-logo.png"
+  },
+  {
+    "name": "Firebase",
+    "icon": "https://img.icons8.com/color/48/000000/firebase.png"
+  },
+  {
+    "name": "Postman",
+    "icon": "https://img.icons8.com/?size=48&id=EPbEfEa7o8CB&format=png&color=000000"
+  },
+  {
+    "name": "JavaScript",
+    "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
+  },
+  {
+    "name": "TypeScript",
+    "icon": "https://img.icons8.com/?size=48&id=uJM6fQYqDaZK&format=png&color=000000"
+  },
+  {
+    "name": "Next.js",
+    "icon": "/assets/images/skills/next.js-logo.png"
+  },
+  {
+    "name": "Git VCS",
+    "icon": "https://img.icons8.com/color/48/000000/git.png"
+  },
+  {
+    "name": "GitHub",
+    "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
+  },
+  {
+    "name": "VS Code",
+    "icon": "https://img.icons8.com/?size=48&id=9OGIyU8hrxW5&format=png&color=000000"
+  },
+  {
+    "name": "Compass",
+    "icon": "https://img.icons8.com/?size=48&id=bosfpvRzNOG8&format=png&color=000000"
+  },
+  {
+    "name": "Office",
+    "icon": "https://img.icons8.com/?size=48&id=37619&format=png&color=000000"
+  },
+  {
+    "name": "Photoshop",
+    "icon": "https://img.icons8.com/?size=48&id=13677&format=png&color=000000"
+  },
+  {
+    "name": "Windows",
+    "icon": "https://img.icons8.com/?size=48&id=gXoJoyTtYXFg&format=png&color=000000"
+  },
+  {
+    "name": "Linux",
+    "icon": "https://img.icons8.com/?size=48&id=101665&format=png&color=000000"
+  },
+  {
+    "name": "Atlas",
+    "icon": "https://img.icons8.com/?size=48&id=74402&format=png&color=000000"
+  },
+  {
     "name": "Cloudflare",
     "icon": "https://img.icons8.com/?size=48&id=13682&format=png&color=000000"
   },
@@ -68,19 +112,15 @@
     "icon": "/assets/images/skills/render-logo.png"
   },
   {
+    "name": "AWS",
+    "icon": "https://img.icons8.com/?size=48&id=33039&format=png&color=000000"
+  },
+  {
+    "name": "Vercel",
+    "icon": "https://img.icons8.com/?size=48&id=2xFS7aynbwiR&format=png&color=ffffff"
+  },
+  {
     "name": "Railway",
     "icon": "/assets/images/skills/railway-logo.png"
-  },
-  {
-    "name": "Firebase",
-    "icon": "https://img.icons8.com/color/48/000000/firebase.png"
-  },
-  {
-    "name": "AWS",
-    "icon": "https://img.icons8.com/color/48/000000/amazon-web-services.png"
-  },
-  {
-    "name": "Android",
-    "icon": "https://img.icons8.com/fluency/48/000000/android-os.png"
   }
 ]
