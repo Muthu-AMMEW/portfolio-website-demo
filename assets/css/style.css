@@ -755,13 +755,13 @@ header .mm-navbar ul li a:hover {
 }
 /* work section ends */
 
-/* experience section starts */
-.experience .timeline {
+/* mmedu section starts */
+.mmedu .timeline {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
 }
-.experience .timeline::after {
+.mmedu .timeline::after {
   content: "";
   position: absolute;
   width: 6px;
@@ -772,14 +772,14 @@ header .mm-navbar ul li a:hover {
   margin-left: -3px;
   z-index: -2;
 }
-.experience .mm-container {
+.mmedu .mm-container {
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
   width: 50%;
 }
 /*circles on timeline*/
-.experience .mm-container::after {
+.mmedu .mm-container::after {
   content: "\f0b1";
   position: absolute;
   width: 25px;
@@ -796,14 +796,14 @@ header .mm-navbar ul li a:hover {
   color: #02094b;
   font-family: "Font Awesome\ 5 Free";
 }
-.experience .left {
+.mmedu .left {
   left: 0;
 }
-.experience .right {
+.mmedu .right {
   left: 50%;
 }
 /* arrows pointing right */
-.experience .left::before {
+.mmedu .left::before {
   content: " ";
   height: 0;
   position: absolute;
@@ -816,7 +816,7 @@ header .mm-navbar ul li a:hover {
   border-color: transparent transparent transparent #f68c09;
 }
 /* arrows pointing left  */
-.experience .right::before {
+.mmedu .right::before {
   content: " ";
   height: 0;
   position: absolute;
@@ -828,28 +828,28 @@ header .mm-navbar ul li a:hover {
   border-width: 10px 10px 10px 0;
   border-color: transparent #f68c09 transparent transparent;
 }
-.experience .right::after {
+.mmedu .right::after {
   left: -16px;
 }
-.experience .content {
+.mmedu .content {
   background-color: #f68c09;
   position: relative;
   border-radius: 6px;
 }
-.experience .content .tag {
+.mmedu .content .tag {
   font-size: 1.3rem;
   padding-top: 1.5rem;
   padding-left: 1.5rem;
 }
-.experience .content .desc {
+.mmedu .content .desc {
   margin-left: 1.5rem;
   padding-bottom: 1rem;
 }
-.experience .content .desc h3 {
+.mmedu .content .desc h3 {
   font-size: 1.5rem;
   font-weight: 600;
 }
-.experience .content .desc p {
+.mmedu .content .desc p {
   font-size: 1.2rem;
 }
 /* view all button */
@@ -887,44 +887,44 @@ header .mm-navbar ul li a:hover {
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
-  .experience {
+  .mmedu {
     min-height: 80vh;
   }
-  .experience .timeline {
+  .mmedu .timeline {
     margin-top: 2rem;
   }
-  .experience .timeline::after {
+  .mmedu .timeline::after {
     left: 31px;
   }
-  .experience .mm-container {
+  .mmedu .mm-container {
     width: 100%;
     padding-left: 8rem;
     padding-right: 2rem;
   }
-  .experience .mm-container::after {
+  .mmedu .mm-container::after {
     font-size: 2.2rem;
   }
-  .experience .mm-container::before {
+  .mmedu .mm-container::before {
     left: 61px;
     border: medium solid #f68c09;
     border-width: 10px 10px 10px 0;
     border-color: transparent #f68c09 transparent transparent;
   }
-  .experience .left::after {
+  .mmedu .left::after {
     left: 15px;
   }
-  .experience .right::after {
+  .mmedu .right::after {
     left: 15px;
   }
-  .experience .right {
+  .mmedu .right {
     left: 0%;
   }
   .morebtn {
     margin-top: 3rem;
   }
 }
-/* experience media queries ends */
-/* experience section ends */
+/* mmedu media queries ends */
+/* mmedu section ends */
 
 /* contact section starts */
 .contact {
