@@ -533,13 +533,7 @@ header .mm-navbar ul li a:hover {
   background: #e5ecfb;
   min-height: 80vh;
 }
-.mmexp .qoute {
-  font-size: 1.5rem;
-  text-align: center;
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
-  margin-top: 0.5rem;
-}
+
 .mmexp .box-container {
   display: flex;
   flex-wrap: wrap;
@@ -756,6 +750,13 @@ header .mm-navbar ul li a:hover {
 /* work section ends */
 
 /* mmedu section starts */
+.mmedu .qoute {
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
 .mmedu .timeline {
   position: relative;
   max-width: 1200px;

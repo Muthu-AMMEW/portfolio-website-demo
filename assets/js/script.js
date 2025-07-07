@@ -236,13 +236,13 @@ srtop.reveal('.about .content .resumebtn', { delay: 200 });
 srtop.reveal('.skills .mm-container', { interval: 200 });
 srtop.reveal('.skills .mm-container .bar', { delay: 400 });
 
-/* SCROLL MMExp */
+/* SCROLL Experience */
 srtop.reveal('.mmexp .box', { interval: 200 });
 
 /* SCROLL PROJECTS */
 srtop.reveal('.work .box', { interval: 200 });
 
-/* SCROLL MMEdu */
+/* SCROLL Education */
 srtop.reveal('.mmedu .timeline', { delay: 400 });
 srtop.reveal('.mmedu .timeline .mm-container', { interval: 400 });
 
