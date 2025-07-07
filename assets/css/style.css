@@ -581,9 +581,7 @@ header .mm-navbar ul li a:hover {
   padding-left: 0.63rem;
   background: #ffd900;
 }
-.work .box-container .box .content .tag h3 {
-  font-size: 1.25rem;
-}
+
 .work .box-container .box:hover .content {
   top: 6.25%;
 }
@@ -593,9 +591,7 @@ header .mm-navbar ul li a:hover {
   flex-direction: column;
   justify-content: center;
 }
-.work .desc p {
-  font-size: 0.75rem;
-}
+
 .work .desc .btns {
   display: flex;
   justify-content: space-between;
@@ -747,45 +743,6 @@ header .mm-navbar ul li a:hover {
   margin-left: 0.94rem;
   padding-bottom: 0.63rem;
 }
-.mmedu .content .desc h3 {
-  font-size: 0.94rem;
-  font-weight: 600;
-}
-.mmedu .content .desc p {
-  font-size: 0.75rem;
-}
-/* view all button */
-.morebtn {
-  display: flex;
-  justify-content: center;
-}
-.morebtn .mm-btn {
-  position: relative;
-  line-height: 0;
-  padding: 1rem 1.88rem;
-  border-radius: 0.5em;
-  transition: 0.5s;
-  color: #fff;
-  background: #2506ad;
-  box-shadow: 0px 3.13px 6.25px rgba(48, 68, 247, 0.6);
-  text-align: center;
-}
-.morebtn .mm-btn span {
-  font-weight: 600;
-  font-size: 1.06rem;
-  font-family: "Nunito", sans-serif;
-}
-.morebtn .mm-btn i {
-  margin-left: 0.19rem;
-  font-size: 0.94rem;
-  transition: 0.3s;
-}
-.morebtn .mm-btn:hover {
-  background: #1a047e;
-}
-.morebtn .mm-btn:hover i {
-  transform: translateX(3.13px);
-}
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
@@ -820,9 +777,6 @@ header .mm-navbar ul li a:hover {
   }
   .mmedu .right {
     left: 0%;
-  }
-  .morebtn {
-    margin-top: 1.88rem;
   }
 }
 /* mmedu media queries ends */
