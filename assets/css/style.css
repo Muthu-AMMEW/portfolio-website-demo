@@ -339,13 +339,7 @@ header .mm-navbar ul li a:hover {
 .about {
   background: rgb(255, 255, 255);
 }
-.about .mm-row {
-  display: flex;
-  flex-direction: row;
-  gap: 1.25rem;
-  flex-wrap: wrap;
-  padding: 2.5rem;
-}
+
 .about .mm-row .image {
   text-align: center;
   flex: 1 1 35rem;
