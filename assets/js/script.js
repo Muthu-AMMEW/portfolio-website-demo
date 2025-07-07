@@ -237,14 +237,14 @@ srtop.reveal('.skills .mm-container', { interval: 200 });
 srtop.reveal('.skills .mm-container .bar', { delay: 400 });
 
 /* SCROLL Experience */
-srtop.reveal('.mmexp .box', { interval: 200 });
+srtop.reveal('.experience .box', { interval: 200 });
 
 /* SCROLL PROJECTS */
 srtop.reveal('.work .box', { interval: 200 });
 
 /* SCROLL Education */
-srtop.reveal('.mmedu .timeline', { delay: 400 });
-srtop.reveal('.mmedu .timeline .mm-container', { interval: 400 });
+srtop.reveal('.education .timeline', { delay: 400 });
+srtop.reveal('.education .timeline .mm-container', { interval: 400 });
 
 /* SCROLL CONTACT */
 srtop.reveal('.contact .mm-container', { delay: 400 });

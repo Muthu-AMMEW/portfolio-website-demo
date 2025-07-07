@@ -459,19 +459,19 @@ header .mm-navbar ul li a:hover {
 /* skills media queries ends*/
 /* skills section ends */
 
-/* mmexp section starts */
+/* experience section starts */
 
-.mmexp .box-container .box {
+.experience .box-container .box {
   border-radius: 0.31rem;
   box-shadow: 0.13rem 0.31rem 0.63rem rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   background: rgb(252, 252, 252);
 }
-.mmexp .box-container .box:hover {
+.experience .box-container .box:hover {
   transform: scale(1.03);
   box-shadow: 0.63rem 0.31rem 0.75rem rgba(0, 0, 0, 0.3);
 }
-/* mmexp section ends */
+/* experience section ends */
 
 /* work section starts */
 .work {
@@ -589,20 +589,20 @@ header .mm-navbar ul li a:hover {
 }
 /* work section ends */
 
-/* mmedu section starts */
-.mmedu .qoute {
+/* education section starts */
+.education .qoute {
   font-size: 0.94rem;
   text-align: center;
   font-family: "Nunito", sans-serif;
   font-weight: 600;
   margin-top: 0.31rem;
 }
-.mmedu .timeline {
+.education .timeline {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
 }
-.mmedu .timeline::after {
+.education .timeline::after {
   content: "";
   position: absolute;
   width: 3.75px;
@@ -613,14 +613,14 @@ header .mm-navbar ul li a:hover {
   margin-left: -1.88px;
   z-index: -2;
 }
-.mmedu .mm-container {
+.education .mm-container {
   padding: 6.25px 25px;
   position: relative;
   background-color: inherit;
   width: 50%;
 }
 /*circles on timeline*/
-.mmedu .mm-container::after {
+.education .mm-container::after {
   content: "\f0b1";
   position: absolute;
   width: 15.63px;
@@ -637,14 +637,14 @@ header .mm-navbar ul li a:hover {
   color: #02094b;
   font-family: "Font Awesome\ 5 Free";
 }
-.mmedu .left {
+.education .left {
   left: 0;
 }
-.mmedu .right {
+.education .right {
   left: 50%;
 }
 /* arrows pointing right */
-.mmedu .left::before {
+.education .left::before {
   content: " ";
   height: 0;
   position: absolute;
@@ -657,7 +657,7 @@ header .mm-navbar ul li a:hover {
   border-color: transparent transparent transparent #f68c09;
 }
 /* arrows pointing left  */
-.mmedu .right::before {
+.education .right::before {
   content: " ";
   height: 0;
   position: absolute;
@@ -669,61 +669,61 @@ header .mm-navbar ul li a:hover {
   border-width: 6.25px 6.25px 6.25px 0;
   border-color: transparent #f68c09 transparent transparent;
 }
-.mmedu .right::after {
+.education .right::after {
   left: -10px;
 }
-.mmedu .content {
+.education .content {
   background-color: #f68c09;
   position: relative;
   border-radius: 3.75px;
 }
-.mmedu .content .tag {
+.education .content .tag {
   font-size: 0.81rem;
   padding-top: 0.94rem;
   padding-left: 0.94rem;
 }
-.mmedu .content .desc {
+.education .content .desc {
   margin-left: 0.94rem;
   padding-bottom: 0.63rem;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
-  .mmedu {
+  .education {
     min-height: 50vh;
   }
-  .mmedu .timeline {
+  .education .timeline {
     margin-top: 1.25rem;
   }
-  .mmedu .timeline::after {
+  .education .timeline::after {
     left: 19.38px;
   }
-  .mmedu .mm-container {
+  .education .mm-container {
     width: 100%;
     padding-left: 5rem;
     padding-right: 1.25rem;
   }
-  .mmedu .mm-container::after {
+  .education .mm-container::after {
     font-size: 1.38rem;
   }
-  .mmedu .mm-container::before {
+  .education .mm-container::before {
     left: 38.13px;
     border: medium solid #f68c09;
     border-width: 6.25px 6.25px 6.25px 0;
     border-color: transparent #f68c09 transparent transparent;
   }
-  .mmedu .left::after {
+  .education .left::after {
     left: 9.38px;
   }
-  .mmedu .right::after {
+  .education .right::after {
     left: 9.38px;
   }
-  .mmedu .right {
+  .education .right {
     left: 0%;
   }
 }
-/* mmedu media queries ends */
-/* mmedu section ends */
+/* education media queries ends */
+/* education section ends */
 
 /* contact section starts */
 .contact {
