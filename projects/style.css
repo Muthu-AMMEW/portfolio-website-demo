@@ -6,8 +6,8 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  outline: none; border: none;
-  text-transform:capitalize;
+  outline: none; 
+  border: none;
   transition: all .2s linear;
 }
 html{
@@ -25,7 +25,7 @@ body{
 }
 
 html::-webkit-scrollbar{
-  width: .5rem;
+  width: 0.5rem;
 }
 html::-webkit-scrollbar-track{
   background: rgb(235, 202, 245);
@@ -37,7 +37,9 @@ html::-webkit-scrollbar-thumb{
 /* navbar starts */
 header{
   position: fixed;
-  top: 0; left: 0; right: 0;
+  top: 0; 
+  left: 0; 
+  right: 0;
   z-index: 1000;
   display: flex;
   align-items: center;
@@ -45,7 +47,7 @@ header{
   padding: 1.06rem 6.25%;
   height: 4.06rem;
   background-color: #fff;
-  box-shadow: 0 0.63px 2.5px rgba(146,161,176,.3);
+  box-shadow: 0 0.63px 2.5px rgba(146,161,176,0.3);
 }
 section{
   min-height: 100vh;
@@ -87,12 +89,13 @@ header .mm-navbar ul li a{
   font-weight: 600;
   text-decoration: none;
   letter-spacing: 0.03rem;
+  transition: 0.2s;
 }
 header .mm-navbar ul li a.mm-active,
 header .mm-navbar ul li a:hover{
   color: #011aff;
-  border-bottom: .13rem solid #011aff;
-  padding: .31rem 0;
+  border-bottom: 0.13rem solid #011aff;
+  padding: 0.31rem 0;
 }
 /* navbar ends */
 
@@ -109,7 +112,8 @@ header .mm-navbar ul li a:hover{
   }
   header .mm-navbar{
     position: fixed;
-    top: 4.06rem; right: -120%;
+    top: 4.06rem; 
+    right: -120%;
     width: 75%;
     height: 100%;
     text-align: left;
@@ -138,8 +142,8 @@ header .mm-navbar ul li a:hover{
   header .mm-navbar ul li a:hover{
     padding: 0.63rem;
     color: #fff;
-    border-radius: .31rem;
-    border-bottom: .31rem solid #011aff;
+    border-radius: 0.31rem;
+    border-bottom: 0.31rem solid #011aff;
   }
   .fa-times{
     transform: rotate(180deg);
@@ -231,12 +235,11 @@ header .mm-navbar ul li a:hover{
   padding-left: 0.63rem;
   background: #ffd900;
 }
-.work .box-container .box .content .tag h3{
-  font-size: 1.25rem;
-}
+
 .work .box-container .box:hover .content{
   top: 6.25%;
 }
+
 .work .desc {
   margin: 1.25rem;
   display: flex;
@@ -266,17 +269,6 @@ header .mm-navbar ul li a:hover{
   background: #310ae0f5;
 }
 
-@media screen and (max-width: 450px) {
-  .work .button-group{
-    width: 100%;
-  }
-  .work .box-container{
-    margin: 0rem;
-  }
-  .work .box-container .grid-item .box{
-    width: 95% !important;
-  }
-}
 
 /* back to home button */
 .backbtn{

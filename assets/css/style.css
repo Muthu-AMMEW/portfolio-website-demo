@@ -631,6 +631,10 @@ header .mm-navbar ul li a:hover {
   justify-content: center;
 }
 
+.work .desc p{
+  font-size: 0.75rem;
+}
+
 .work .desc .btns {
   display: flex;
   justify-content: space-between;
@@ -1102,6 +1106,9 @@ form .button-area {
 
 /* common media queries starts*/
 @media (max-width: 450px) {
+  html{
+    font-size: 55%;
+  }
   body {
     padding-right: 0;
   }
@@ -1122,7 +1129,7 @@ form .button-area {
   font-size: 1.25rem;
   background: #ffae00;
   color: rgb(13, 0, 44);
-  border-radius: 50%;
+  border-radius: 3.13rem;
   transition: 1s linear;
   z-index: 1000;
 }
