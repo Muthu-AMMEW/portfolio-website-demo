@@ -172,7 +172,6 @@ header .mm-navbar ul li a:hover{
   flex-wrap: wrap;
   gap:0.63rem;
   margin: 1.25rem auto;
-  width: 50%;
   justify-content: center;
   align-items: center;
 }
@@ -190,7 +189,7 @@ header .mm-navbar ul li a:hover{
   background-color: #fff;
   color: #000;
 }
-.fullWork .button-group .mm-btn .is-checked{
+.fullWork .button-group .mm-btn.is-checked{
   background-color: #fff;
   color: #000;
 }

@@ -17,19 +17,6 @@ $(document).ready(function () {
     });
 });
 
-document.addEventListener('visibilitychange',
-    function () {
-        if (document.visibilityState === "visible") {
-            document.title = "Projects | Portfolio Jigar Sable";
-            $("#favicon").attr("href", "/assets/images/favicon.png");
-        }
-        else {
-            document.title = "Come Back To Portfolio";
-            $("#favicon").attr("href", "/assets/images/favhand.png");
-        }
-    });
-
-
 // fetch projects start
 function getProjects() {
     return fetch("projects.json")
