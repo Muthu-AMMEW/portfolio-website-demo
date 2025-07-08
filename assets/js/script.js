@@ -94,7 +94,7 @@ function showSkills(skills) {
     let skillHTML = "";
     skills.forEach(skill => {
         skillHTML += `
-        <div class="bar">
+        <div class="bar" style="width: 9.5rem;">
               <div class="info">
                 <img src=${skill.icon} alt="skill" />
                 <span>${skill.name}</span>
