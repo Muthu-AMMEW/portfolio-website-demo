@@ -196,12 +196,11 @@ header .mm-navbar ul li a:hover{
 .fullWork .box-container{
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap:0.94rem;
   margin: 1.25rem;
 }
 .fullWork .box-container .box{
-  flex:1 1 30rem;
-  border-radius: 0.31rem;
   box-shadow: 0 0.31rem 0.63rem rgba(0,0,0,0.1);
   position: relative;
   overflow:hidden;
