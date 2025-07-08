@@ -632,7 +632,7 @@ header .mm-navbar ul li a:hover {
 }
 
 .work .desc p{
-  font-size: 0.75rem;
+  font-size: 0.88rem;
 }
 
 .work .desc .btns {
@@ -647,6 +647,7 @@ header .mm-navbar ul li a:hover {
   display: inline;
   padding: 0.94rem 1.56rem;
   border-radius: 0.31rem;
+  text-decoration: none;
   font-size: 0.94rem;
   color: #fff;
   background: rgb(12, 12, 12);
@@ -672,6 +673,7 @@ header .mm-navbar ul li a:hover {
   font-weight: 700;
   border: 1.25px solid #fff;
   box-shadow: 0px 3.13px 6.25px rgba(65, 84, 241, 0.4);
+  text-decoration: none;
   text-align: center;
 }
 
@@ -734,11 +736,11 @@ header .mm-navbar ul li a:hover {
 
 /*circles on timeline*/
 .education .mm-container::after {
-  content: "\f0b1";
+  content: "\f19d";
   position: absolute;
-  width: 15.63px;
-  height: 15.63px;
-  right: -10.63px;
+  width: 30px;
+  height: 30px;
+  right: -15px;
   background-color: rgb(255, 255, 255);
   border: 2.5px solid #ff9f55;
   top: 9.38px;
@@ -756,7 +758,7 @@ header .mm-navbar ul li a:hover {
 }
 
 .education .right {
-  left: 50%;
+  left: 49.15%;
 }
 
 /* arrows pointing right */
@@ -912,7 +914,7 @@ form i {
   top: 50%;
   left: 11.25px;
   color: rgb(51, 51, 51);
-  font-size: 10.63px;
+  font-size: 15px;
   pointer-events: none;
   transform: translateY(-50%);
 }
@@ -953,8 +955,8 @@ form .message {
 }
 
 form .message i {
-  top: 15.63px;
-  font-size: 12.5px;
+  top: 20px;
+  font-size: 20px;
   left: 9.38px;
 }
 
@@ -1107,7 +1109,7 @@ form .button-area {
 /* common media queries starts*/
 @media (max-width: 450px) {
   html{
-    font-size: 55%;
+    font-size: 80%;
   }
   body {
     padding-right: 0;

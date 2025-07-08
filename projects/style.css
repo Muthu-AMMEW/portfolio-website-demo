@@ -245,7 +245,7 @@ header .mm-navbar ul li a:hover{
   justify-content: center;
 }
 .fullWork .desc p{
-  font-size: 0.75rem;
+  font-size: 1rem;
 }
 .fullWork .desc .btns{
   display: flex;

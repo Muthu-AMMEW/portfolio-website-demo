@@ -33,7 +33,7 @@ function showProjects(projects) {
     projects.forEach(project => {
         projectsHTML += `
         <div class="grid-item ${project.category}">
-        <div class="box tilt" style="width: 480px; margin: 1rem">
+        <div class="box tilt" style="margin: 1rem">
       <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
       <div class="content">
         <div class="tag">
@@ -42,8 +42,8 @@ function showProjects(projects) {
         <div class="desc">
           <p>${project.desc}</p>
           <div class="btns">
-            <a href="${project.links.view}" class="mm-btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="${project.links.code}" class="mm-btn" target="_blank">Code <i class="fas fa-code"></i></a>
+            <a href="${project.links.view}" class="mm-btn text-decoration-none" target="_blank"><i class="fas fa-eye"></i> View</a>
+            <a href="${project.links.code}" class="mm-btn text-decoration-none" target="_blank">Code <i class="fas fa-code"></i></a>
           </div>
         </div>
       </div>
