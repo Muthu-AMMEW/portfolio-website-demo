@@ -896,7 +896,7 @@ form .mm-form-group {
 }
 
 .mm-form-group .field {
-  height: 31.25px;
+  height: 35.25px;
   display: flex;
   position: relative;
   margin: 0.63rem;
@@ -919,7 +919,7 @@ form .message textarea {
   height: 100%;
   outline: none;
   padding: 0 10px 0 30px;
-  font-size: 10px;
+  font-size: 16px;
   font-family: "Poppins", sans-serif;
   border-radius: 3.13px;
   border: 0.63px solid rgb(51, 51, 51);

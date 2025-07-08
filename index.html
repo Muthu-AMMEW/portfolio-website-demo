@@ -78,7 +78,7 @@
 
     <div class="mm-row d-flex flex-column flex-md-row">
 
-      <div class="image">
+      <div class="image d-none d-lg-block">
         <img draggable="false" class="tilt" src="about.jpg" alt="">
       </div>
       <div class="content mt-4">
@@ -138,13 +138,13 @@
           <img draggable="false" class="object-fit-cover position-relative w-100 h-100" src="about.jpg" alt="">
         </div>
         <div class="content col-12 col-md-9 col-lg-10 p-2 ps-3">
-          <div class="d-flex justify-content-between">
+          <div class="d-flex flex-column flex-lg-row justify-content-between">
             <h2>GTEK Techno Solutions Pvt. Ltd.</h2>
-            <h5 class="pe-3">Mogappair West, Chennai</h5>
+            <h6 class="pe-3">Mogappair West, Chennai</h6>
           </div>
-          <div class="d-flex justify-content-between">
+          <div class="d-flex flex-column flex-lg-row justify-content-between">
             <h5 class="text-start">Full stack (MERN) Web Developer </h5>
-            <h5 class="pe-3">Jun-2024 – Jul-2025</h5>
+            <h6 class="pe-3">Jun-2024 – Jul-2025</h6>
           </div>
           <ul class="fs-6 pt-3">
             <li>Built and maintained full-stack web applications using MongoDB, Express.js, React.js, and Node.js
@@ -298,11 +298,11 @@
               <i class='fas fa-user'></i>
             </div>
             <div class="field">
-              <input type="text" name="email" placeholder="Email" required>
+              <input type="email" name="email" placeholder="Email" required>
               <i class='fas fa-envelope'></i>
             </div>
             <div class="field">
-              <input type="text" name="phone" placeholder="Mobile">
+              <input type="number" name="phone" placeholder="Whatsapp No." minlength="10" required>
               <i class='fas fa-phone-alt'></i>
             </div>
             <div class="message">
@@ -342,9 +342,9 @@
       </div>
 
       <div class="box text-white">
-        <h3>contact info</h3>
+        <h3>Contact Info</h3>
         <p> <i class="fas fa-phone"></i>+91 807249910</p>
-        <p> <i class="fas fa-envelope"></i>muthu.ammew333@gmail.com</p>
+        <p> <a href="mailto:muthu.ammew333@gmail.com" class="fas fa-envelope" target="_blank"> muthu.ammew333@gmail.com</a></p>
         <p> <i class="fas fa-map-marked-alt"></i>Tamil Nadu, India</p>
         <div class="share">
 
