@@ -1129,7 +1129,7 @@ form .button-area {
   font-size: 1.25rem;
   background: #ffae00;
   color: rgb(13, 0, 44);
-  border-radius: 3.13rem;
+  border-radius: 50%;
   transition: 1s linear;
   z-index: 1000;
 }

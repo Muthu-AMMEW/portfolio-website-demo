@@ -154,20 +154,20 @@ header .mm-navbar ul li a:hover{
 }
 /* hamburger icon ends */
 
-/* work section starts */
-.work{
+/* full work section starts */
+.fullWork{
   /* background: #010124; */
   background: linear-gradient(to bottom, #010136, #00003a);
   margin-top: 3.13rem;
 }
-.work h2{
+.fullWork h2{
   color: #fff;
   padding: 0.63rem;
 }
-.work .heading span{
+.fullWork .heading span{
   color: rgb(255, 230, 0);
 }
-.work .button-group{
+.fullWork .button-group{
   display: flex;
   flex-wrap: wrap;
   gap:0.63rem;
@@ -176,7 +176,7 @@ header .mm-navbar ul li a:hover{
   justify-content: center;
   align-items: center;
 }
-.work .button-group .mm-btn{
+.fullWork .button-group .mm-btn{
   outline: none;
   padding: 0.63rem 1.25rem;
   background: transparent;
@@ -186,21 +186,21 @@ header .mm-navbar ul li a:hover{
   cursor: pointer;
   font-weight: 500;
 }
-.work .button-group .mm-btn:hover{
+.fullWork .button-group .mm-btn:hover{
   background-color: #fff;
   color: #000;
 }
-.work .button-group .mm-btn .is-checked{
+.fullWork .button-group .mm-btn .is-checked{
   background-color: #fff;
   color: #000;
 }
-.work .box-container{
+.fullWork .box-container{
   display: flex;
   flex-wrap: wrap;
   gap:0.94rem;
   margin: 1.25rem;
 }
-.work .box-container .box{
+.fullWork .box-container .box{
   flex:1 1 30rem;
   border-radius: 0.31rem;
   box-shadow: 0 0.31rem 0.63rem rgba(0,0,0,0.1);
@@ -210,12 +210,12 @@ header .mm-navbar ul li a:hover{
   background: #fff;
   border: none;
 }
-.work .box-container .box img{
+.fullWork .box-container .box img{
   height: 100%;
   width:100%;
   object-fit: cover;
 }
-.work .box-container .box .content{
+.fullWork .box-container .box .content{
   height: 100%;
   width:100%;
   position: absolute;
@@ -225,7 +225,7 @@ header .mm-navbar ul li a:hover{
   display: flex;
   flex-direction: column;
 }
-.work .box-container .box .content .tag{
+.fullWork .box-container .box .content .tag{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -236,26 +236,26 @@ header .mm-navbar ul li a:hover{
   background: #ffd900;
 }
 
-.work .box-container .box:hover .content{
+.fullWork .box-container .box:hover .content{
   top: 6.25%;
 }
 
-.work .desc {
+.fullWork .desc {
   margin: 1.25rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.work .desc p{
+.fullWork .desc p{
   font-size: 0.75rem;
 }
-.work .desc .btns{
+.fullWork .desc .btns{
   display: flex;
   justify-content: space-between;
   width: 100%;
   margin-top: 1.25rem;
 }
-.work .desc .btns .mm-btn{
+.fullWork .desc .btns .mm-btn{
   line-height: 0;
   display: inline;
   padding: 0.94rem 1.56rem;
@@ -265,7 +265,7 @@ header .mm-navbar ul li a:hover{
   background: rgb(12, 12, 12);
   margin-right: 1.25rem;
 }
-.work .desc .btns .mm-btn:hover{
+.fullWork .desc .btns .mm-btn:hover{
   background: #310ae0f5;
 }
 
@@ -305,7 +305,7 @@ header .mm-navbar ul li a:hover{
 .backbtn .mm-btn:hover i {
   transform: translateX(-5px);
 }
-/* work section ends */
+/* full work section ends */
 
 /* common media queries starts*/
 @media(max-width:450px){
