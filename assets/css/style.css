@@ -1134,7 +1134,7 @@ form .button-area {
   z-index: 1000;
 }
 
-#scroll-top.active {
+#scroll-top.mm-active {
   top: calc(100% - 7.5rem);
 }
 
