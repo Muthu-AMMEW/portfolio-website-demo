@@ -107,7 +107,7 @@ function showSkills(skills) {
 function showProjects(projects) {
     let projectsContainer = document.querySelector("#work .box-container");
     let projectHTML = "";
-    projects.slice(0, 6).filter(project => project.category != "android").forEach(project => {
+    projects.slice(0, 4).filter(project => project.category != "android").forEach(project => {
         projectHTML += `
       <div class="box tilt">
       <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
@@ -247,5 +247,5 @@ srtop.reveal('.education .timeline', { delay: 400 });
 srtop.reveal('.education .timeline .mm-container', { interval: 400 });
 
 /* SCROLL CONTACT */
-srtop.reveal('.contact .mm-container', { delay: 400 });
-srtop.reveal('.contact .mm-container .mm-form-group', { delay: 400 });
+srtop.reveal('.contact .container', { delay: 400 });
+srtop.reveal('.contact .container #contact-form', { delay: 400 });

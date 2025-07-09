@@ -74,10 +74,10 @@ header {
   box-shadow: 0 0.63px 2.5px rgba(146, 161, 176, 0.3);
 }
 
-section {
-  /* min-height: 100vh; */
+/* section {
+  min-height: 100vh;
   padding: 1.25rem 5.63%;
-}
+} */
 
 .heading {
   font-size: 2.19rem;
@@ -117,7 +117,7 @@ header .mm-navbar li {
 }
 
 header .mm-navbar ul li a {
-  font-size: 0.98rem;
+  font-size: 1.1rem;
   color: #0e2431;
   font-weight: 600;
   text-decoration: none;
@@ -366,44 +366,19 @@ header .mm-navbar ul li a:hover {
   background: rgb(255, 255, 255);
 }
 
-.about .mm-row .image {
-  text-align: center;
-  flex: 1 1 35rem;
-}
-
-.about .mm-row .image img {
-  margin: 2.5rem;
-  width: 18.75rem;
-  height: auto;
-  border-radius: 5%;
+.about .image img {
+  max-width: 15rem;
   box-shadow: 0 3.13px 6.25px rgba(0, 0, 0, 0.6);
   mix-blend-mode: luminosity;
   transition: 0.3s;
   cursor: pointer;
 }
 
-.about .mm-row .image img:hover {
+.about .image img:hover {
   mix-blend-mode: normal;
 }
 
-.about .mm-row .content {
-  flex: 1 1 45rem;
-  padding: 1.88rem;
-}
-
-.about .mm-row .content h3 {
-  color: rgb(27, 27, 27);
-  font-size: 1.56rem;
-}
-
-.about .mm-row .content .tag {
-  font-size: 0.88rem;
-  color: #020133;
-  font-weight: 600;
-  margin-top: 0.63rem;
-}
-
-.about .mm-row .content .box-container {
+.about .content .box-container {
   display: flex;
   flex-wrap: wrap;
   gap: 0.94rem;
@@ -411,16 +386,12 @@ header .mm-navbar ul li a:hover {
   font-weight: 600;
 }
 
-.about .mm-row .content .box-container .box p {
-  text-transform: none;
-}
-
-.about .mm-row .content .box-container .box p span {
+.about .content .box-container .box p span {
   color: #011aff;
 }
 
 .resumebtn {
-  margin-top: 3.75rem;
+  margin-top: 1.5rem;
 }
 
 .resumebtn .mm-btn {
@@ -473,11 +444,6 @@ header .mm-navbar ul li a:hover {
 .skills .mm-container {
   background: rgba(0, 0, 22, 0.4);
   color: #fff;
-  border-radius: 0.63rem;
-  padding: 1.25rem;
-  width: 90%;
-  margin: auto;
-  margin-top: 1.25rem;
 }
 
 .skills .mm-container .mm-row {
@@ -519,30 +485,10 @@ header .mm-navbar ul li a:hover {
   font-family: "Poppins";
   margin-left: 0.31rem;
 }
-
-/* skills media queries starts*/
-@media screen and (max-width: 600px) {
-  .skills .mm-container {
-    padding: 0;
-    margin: 0;
-  }
-
-  .skills .mm-container .mm-row {
-    margin: 0.63rem;
-    padding: 1.25rem 0.13rem 1.25rem 0.13rem;
-    gap: 0.63rem;
-  }
-
-  .skills .mm-container {
-    margin-top: 3.13px;
-    width: 100%;
-  }
-}
-
-/* skills media queries ends*/
 /* skills section ends */
 
 /* experience section starts */
+
 /* #experience {
   min-height: 70vh;
 } */
@@ -574,14 +520,6 @@ header .mm-navbar ul li a:hover {
 
 .work .heading span {
   color: rgb(255, 230, 0);
-}
-
-.work .box-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 3rem;
-  margin: 1.25rem;
 }
 
 .work .box-container .box {
@@ -864,50 +802,13 @@ header .mm-navbar ul li a:hover {
   /* min-height: 37.5vh; */
 }
 
-.contact .mm-container {
-  max-width: 1050px;
-  width: 100%;
+.contact .container {
   background: #fff;
-  border-radius: 0.94rem;
-  margin: 1.25rem 3.13rem;
   box-shadow: 0 3.13px 6.25px rgba(0, 0, 0, 0.15);
 }
 
-.contact .mm-container .content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1.56rem 1.25rem;
-}
-
-.contact .content .image-box {
-  max-width: 60%;
-  margin-left: 2.5rem;
-}
-
-.contact .content .image-box img {
-  width: 100%;
-  height: 25rem;
-  position: relative;
-}
-
-.contact .content form {
-  width: 45%;
-  margin-right: 2.19rem;
-}
-
-form .mm-form-group {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.mm-form-group .field {
-  height: 35.25px;
-  display: flex;
-  position: relative;
-  margin: 0.63rem;
-  width: 100%;
+.contact .container form input{
+  min-width: 25rem;
 }
 
 form i {
@@ -920,73 +821,7 @@ form i {
   transform: translateY(-50%);
 }
 
-form .field input,
-form .message textarea {
-  width: 100%;
-  height: 100%;
-  outline: none;
-  padding: 0 10px 0 30px;
-  font-size: 0.9rem;
-  font-family: "Poppins", sans-serif;
-  border-radius: 3.13px;
-  border: 0.63px solid rgb(51, 51, 51);
-  background: #e5ecfb;
-}
-
-.field input::placeholder,
-.message textarea::placeholder {
-  color: rgb(51, 51, 51);
-}
-
-.field input:focus,
-.message textarea:focus {
-  padding-left: 29.38px;
-  border: 1.25px solid rgb(115, 3, 167);
-}
-
-.field input:focus~i,
-.message textarea:focus~i {
-  color: rgb(115, 3, 167);
-}
-
-form .message {
-  position: relative;
-  margin: 0.63rem;
-  width: 100%;
-}
-
-form .message i {
-  top: 20px;
-  font-size: 20px;
-  left: 9.38px;
-}
-
-form .message textarea {
-  min-height: 81.25px;
-  max-height: 143.75px;
-  max-width: 100%;
-  min-width: 100%;
-  padding: 7.5px 12.5px 0 30px;
-}
-
-form .message textarea::-webkit-scrollbar {
-  width: 0px;
-}
-
-form .button-area {
-  display: flex;
-  float: right;
-  flex-direction: row-reverse;
-}
-
 .button-area button {
-  color: #fff;
-  border: none;
-  outline: none;
-  font-size: 1.13rem;
-  cursor: pointer;
-  border-radius: 3.13px;
-  padding: 8.13px 15.63px;
   background: #2506ad;
   box-shadow: 0px 3.13px 6.25px rgba(48, 68, 247, 0.6);
   transition: 0.3s ease;
@@ -997,15 +832,9 @@ form .button-area {
   background: #421cecf5;
 }
 
-.button-area span {
-  font-size: 10.63px;
-  padding: 0.63rem;
-  display: none;
-}
-
 .button-area button i {
   position: relative;
-  top: 3.75px;
+  top: 7px;
   left: 1.25px;
   font-size: 0.94rem;
   transition: 0.3s;
@@ -1015,32 +844,6 @@ form .button-area {
 .button-area button:hover i {
   left: 5px;
 }
-
-/* contact section media queries starts */
-@media (max-width: 900px) {
-  /* .contact {
-    min-height: 43.75vh;
-  } */
-
-  .contact .mm-container {
-    margin: 1.88rem 0 1.25rem 0;
-  }
-
-  .contact .mm-container .content {
-    padding: 11.25px 7.5px;
-  }
-
-  .contact .content .image-box {
-    display: none;
-  }
-
-  .contact .content form {
-    width: 100%;
-    margin-right: 1.25rem;
-  }
-}
-
-/* contact section ends */
 
 /* footer section starts */
 .footer {
@@ -1111,14 +914,6 @@ form .button-area {
 @media (max-width: 450px) {
   html {
     font-size: 80%;
-  }
-
-  body {
-    padding-right: 0;
-  }
-
-  section {
-    padding: 1.25rem;
   }
 }
 
