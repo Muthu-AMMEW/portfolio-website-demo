@@ -314,6 +314,9 @@ header .mm-navbar ul li a:hover {
   display: inline-block;
   margin-bottom: 8.75px;
 }
+.socials .social-icons li i{
+  padding-top: 0.5rem;
+}
 
 .social-icons a {
   font-size: 1.25rem;
@@ -381,7 +384,7 @@ header .mm-navbar ul li a:hover {
 .about .content .box-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.94rem;
+  gap: 1rem;
   font-family: "Nunito";
   font-weight: 600;
 }
@@ -390,9 +393,6 @@ header .mm-navbar ul li a:hover {
   color: #011aff;
 }
 
-.resumebtn {
-  margin-top: 1.5rem;
-}
 
 .resumebtn .mm-btn {
   padding: 1.06rem 1.88rem;
