@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Loader from "./layouts/Loader";
 import MetaData from "./layouts/MetaData";
 import { toast } from 'react-toastify';
+import Hero from "./sections/Hero";
 
 export default function Home() {
     const [loading, setLoading] = useState(false)
@@ -22,7 +23,7 @@ export default function Home() {
             {loading ? <Loader /> :
                 <>
                     <MetaData title={'Muthu Arivazhagan'} />
-
+                    <Hero />
                     {/* <!-- hero section starts --> */}
                     <section class="home px-lg-3" id="home">
                         <div id="particles-js"></div>
@@ -311,7 +312,7 @@ export default function Home() {
                         </div>
                     </section>
                     {/* <!-- contact section ends --> */}
-                    
+
                     {/* <!-- scroll top btn --> */}
                     <a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
                     {/* <!-- scroll back to top --> */}
