@@ -1,64 +1,39 @@
-import { useEffect, useRef } from 'react';
-import Typed from 'typed.js';
-import ScrollReveal from 'scrollreveal';
-import VanillaTilt from 'vanilla-tilt';
 
-export default function HeroSection() {
-  const typedRef = useRef(null);
-  const tiltRef = useRef(null);
-
-  useEffect(() => {
-    // Typed.js effect
-    const typed = new Typed(typedRef.current, {
-      strings: ["Frontend Development", "Backend Development", "Fullstack Development", "Web Development"],
-      typeSpeed: 50,
-      backSpeed: 25,
-      backDelay: 500,
-      loop: true,
-    });
-
-    // VanillaTilt effect
-    if (tiltRef.current) {
-      VanillaTilt.init(tiltRef.current, { max: 15 });
-    }
-
-    // ScrollReveal effect
-    ScrollReveal().reveal('.hero .content h2, .hero .content p, .hero .mm-btn', {
-      delay: 200,
-      distance: '80px',
-      duration: 1000,
-      origin: 'top',
-      reset: true,
-    });
-
-    ScrollReveal().reveal('.hero .image', { delay: 400 });
-
-    return () => typed.destroy();
-  }, []);
-
-  return (
-    <section className="hero px-lg-3" id="home">
-      <div className="row mt-5 p-5 justify-content-center">
-        <div className="content col-12 col-lg-7 text-center mt-5">
-          <h2>
-            Hi There, I'm<br /> Muthu <span>Arivazhagan</span>
-          </h2>
-          <p>I am Into <span className="typing-text" ref={typedRef}></span></p>
-          <a href="#about" className="mm-btn text-decoration-none">
-            <span>About Me</span>
-            <i className="fas fa-arrow-circle-down"></i>
+export default function Hero() {
+  return (<>
+    {/* <!-- hero section starts --> */}
+    <section class="home px-lg-3" id="home">
+      <div id="particles-js"></div>
+      <div class="row mt-5 p-5 justify-content-center">
+        <div class="content col-12 col-lg-7 text-center mt-5">
+          <h2>Hi There, I'm<br /> Muthu <span>Arivazhgan</span></h2>
+          <p>I am Into <span class="typing-text"></span></p>
+          <a href="#about" class="mm-btn text-decoration-none"><span>About Me</span>
+            <i class="fas fa-arrow-circle-down"></i>
           </a>
+          <div class="socials">
+            <ul class="social-icons">
+              <li><a class="linkedin" aria-label="LinkedIn" href="#" target="_blank"><i
+                class="fab fa-linkedin"></i></a>
+              </li>
+              <li><a class="github" aria-label="GitHub" href="https://github.com/Muthu-AMMEW" target="_blank"><i
+                class="fab fa-github"></i></a></li>
+              <li><a class="twitter" aria-label="Twitter" href="https://x.com/Muthu_AMMEW" target="_blank"><i
+                class="fab fa-twitter"></i></a></li>
+              <li><a class="telegram" aria-label="Telegram" href="https://t.me/Muthu_AMMEW" target="_blank"><i
+                class="fab fa-telegram-plane"></i></a></li>
+              <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/muthu.ammew"><i
+                class="fab fa-instagram" target="_blank"></i></a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div className="image col-12 col-lg-5 text-center mt-5">
-          <img
-            ref={tiltRef}
-            draggable="false"
-            className="tilt"
-            src="portfolio.png"
-            alt="Muthu Arivazhagan"
-          />
+        <div class="image col-12 col-lg-5 text-center mt-5">
+          <img draggable="false" class="tilt" src="portfolio.png" alt="" />
         </div>
       </div>
     </section>
-  );
+    {/* <!-- hero section ends --> */}
+  </>
+  )
 }
