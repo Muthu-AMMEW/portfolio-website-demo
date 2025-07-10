@@ -85,10 +85,10 @@ document.addEventListener("visibilitychange", function () {
   const favicon = document.getElementById("favicon");
   if (document.visibilityState === "visible") {
     document.title = "Portfolio | Muthu Arivazhagan";
-    favicon.setAttribute("href", "assets/images/favicon.png");
+    favicon.setAttribute("href", "public/images/favicon.png");
   } else {
     document.title = "Come Back To Portfolio";
-    favicon.setAttribute("href", "assets/images/favhand.png");
+    favicon.setAttribute("href", "public/images/favhand.png");
   }
 });
 
@@ -137,7 +137,7 @@ function showProjects(projects) {
     .map(
       (p) => `
       <div class="box tilt">
-        <img draggable="false" src="/assets/images/projects/${p.image}.png" alt="project" />
+        <img draggable="false" src="/public/images/projects/${p.image}.png" alt="project" />
         <div class="content">
           <div class="tag"><h3>${p.name}</h3></div>
           <div class="desc">

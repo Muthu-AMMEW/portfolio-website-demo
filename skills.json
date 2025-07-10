@@ -41,7 +41,7 @@
   },
   {
     "name": "Mongoose",
-    "icon": "/assets/images/skills/mongoose-logo.png"
+    "icon": "/public/images/skills/mongoose-logo.png"
   },
   {
     "name": "Firebase",
@@ -61,7 +61,7 @@
   },
   {
     "name": "Next.js",
-    "icon": "/assets/images/skills/next.js-logo.png"
+    "icon": "/public/images/skills/next.js-logo.png"
   },
   {
     "name": "Git VCS",
@@ -109,7 +109,7 @@
   },
   {
     "name": "Render",
-    "icon": "/assets/images/skills/render-logo.png"
+    "icon": "/public/images/skills/render-logo.png"
   },
   {
     "name": "AWS",
@@ -121,6 +121,6 @@
   },
   {
     "name": "Railway",
-    "icon": "/assets/images/skills/railway-logo.png"
+    "icon": "/public/images/skills/railway-logo.png"
   }
 ]
