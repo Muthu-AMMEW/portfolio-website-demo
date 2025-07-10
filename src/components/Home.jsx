@@ -1,19 +1,15 @@
 import { useEffect, useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { getProducts } from "../actions/productActions";
 import Loader from "./layouts/Loader";
 import MetaData from "./layouts/MetaData";
-import Product from "./product/Product";
 import { toast } from 'react-toastify';
-import Pagination from 'react-js-pagination';
 
 export default function Home() {
-
+    const [loading, setLoading] = useState(false)
     useEffect(() => {
-        if (error) {
+        if (2===3) {
             return toast.error(error, { position: 'top-center' })
         }
-    }, [error, dispatch])
+    }, [])
 
     useEffect(() => {
         // Try scrolling the document itself
@@ -25,25 +21,8 @@ export default function Home() {
         <>
             {loading ? <Loader /> :
                 <>
-                    <MetaData title={'Buy Best Products'} />
-                    {/* <!-- navbar starts --> */}
-                    <header>
-                        <a href="/" class="logo"><i class="fab fa-node-js"></i> MERN</a>
-
-                        <div id="menu" class="fas fa-bars"></div>
-                        <nav class="mm-navbar">
-                            <ul>
-                                <li><a class="mm-active" href="#home">Home</a></li>
-                                <li><a href="#about">About</a></li>
-                                <li><a href="#skills">Skills</a></li>
-                                <li><a href="#experience">Experience</a></li>
-                                <li><a href="#work">Work</a></li>
-                                <li><a href="#education">Education</a></li>
-                                <li><a href="#contact">Contact</a></li>
-                            </ul>
-                        </nav>
-                    </header>
-                    {/* <!-- navbar ends --> */}
+                    <MetaData title={'Muthu Arivazhagan'} />
+                   
 
 
                     {/* <!-- hero section starts --> */}

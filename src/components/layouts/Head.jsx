@@ -1,78 +1,24 @@
-import { Link } from 'react-router-dom';
-import Search from './Search';
-import { useDispatch, useSelector } from 'react-redux';
-import { logout } from '../../actions/authActions';
-import UserDropDown from './UserDropDown';
-import SocialNetworks from './SocialNetworks';
-
 
 export default function Head() {
+    return (<>
+        {/* <!-- navbar starts --> */}
+        <header>
+            <a href="/" class="logo"><i class="fab fa-node-js"></i> MERN</a>
 
-    const { isAuthenticated } = useSelector(state => state.authState);
-    const { cartItems } = useSelector(state => state.cartState)
-    const dispatch = useDispatch();
-    const logoutHandler = () => {
-        dispatch(logout);
-    }
-
-    return (
-        <nav className="navbar navbar-expand-lg mm-navbg p-0">
-            <div className="container-fluid d-flex p-1">
-                <div className="d-flex">
-                    <Link className="navbar-brand d-flex me-2" to={"/"}>
-                        <img className="rounded-5" src="/images/logo.png" alt="logo" width="60" height="60" />
-                        <h5 className="mt-3 ms-2 text-white">Portfolio</h5>
-                    </Link>
-                    <Link to={"/home"} className="btn btn-danger d-none d-sm-block my-3 mx-1">Home</Link>
-                    {!isAuthenticated && <Link to={"/login"} className="btn btn-success d-lg-none my-3 mx-1">Login</Link>}
-
-                    {isAuthenticated && <Link className="align-self-start justify-content-end d-lg-none ms-4" to={"/cart"}>
-
-                        <div className=" d-flex flex-column mt-3">
-                            <h5 className="badge text-black mx-2 my-0 p-0">{cartItems.length}</h5>
-                            <i className="fa-solid fa-cart-shopping fa-beat fa-xl mt-3" style={{ color: "#FFD43B" }}></i>
-                        </div>
-                    </Link>}
-
-                </div>
-                
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-                <div className="collapse navbar-collapse ms-3 ms-lg-0" id="navbarSupportedContent">
-                    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                        <SocialNetworks />
-                    </ul>
-                    <Search />
-
-
-                    {!isAuthenticated && <div className='d-flex justify-content-start m-3'>
-                        <Link to={"/login"} className="btn btn-success me-3 d-none d-lg-block">Login</Link>
-                        <Link to={"/register"} className="btn btn-warning text-nowrap">Sign Up</Link>
-
-                    </div>}
-
-                    {isAuthenticated && <div className='d-flex justify-content-around m-4 m-lg-0 mx-lg-5 mt-lg-2'>
-                        <UserDropDown />
-
-                        <Link to={"/login"} className="nav-link d-flex flex-column align-items-start mt-2 mx-5" onClick={logoutHandler}>
-                            <div className=" d-flex flex-column align-items-center"><i className="fa-solid fa-arrow-right-from-bracket fa-xl mb-3" style={{ color: "#63E6BE" }}></i>
-                                <h6>Logout</h6></div>
-                        </Link>
-
-                        <Link className="d-none d-lg-flex flex-column align-items-start" to={"/cart"}>
-
-                            <div className="d-flex flex-column align-items-center">
-                                <h5 className="badge text-black mx-2 p-0">{cartItems.length}</h5>
-                                <i className="fa-solid fa-cart-shopping fa-beat fa-xl mt-1" style={{ color: "#FFD43B" }}></i>
-                            </div>
-                        </Link>
-                    </div>}
-                    <Link to={"/home"} className="btn btn-danger d-block d-sm-none m-3 my-lg-3 mx-lg-1">Home</Link>
-                </div>
-            </div >
-        </nav >
+            <div id="menu" class="fas fa-bars"></div>
+            <nav class="mm-navbar">
+                <ul>
+                    <li><a class="mm-active" href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        {/* <!-- navbar ends --> */}
+    </>
     )
 }
