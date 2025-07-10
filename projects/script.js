@@ -1,96 +1,98 @@
-$(document).ready(function () {
+document.addEventListener("DOMContentLoaded", function () {
+  const menu = document.getElementById("menu");
+  const navbar = document.querySelector(".mm-navbar");
+  const scrollTopBtn = document.getElementById("scroll-top");
 
-    $('#menu').click(function () {
-        $(this).toggleClass('fa-times');
-        $('.mm-navbar').toggleClass('nav-toggle');
-    });
+  // Toggle menu
+  menu.addEventListener("click", function () {
+    this.classList.toggle("fa-times");
+    navbar.classList.toggle("nav-toggle");
+  });
 
-    $(window).on('scroll load', function () {
-        $('#menu').removeClass('fa-times');
-        $('.mm-navbar').removeClass('nav-toggle');
+  // Scroll behavior
+  function handleScroll() {
+    menu.classList.remove("fa-times");
+    navbar.classList.remove("nav-toggle");
 
-        if (window.scrollY > 60) {
-            document.querySelector('#scroll-top').classList.add('mm-active');
-        } else {
-            document.querySelector('#scroll-top').classList.remove('mm-active');
-        }
-    });
+    if (window.scrollY > 60) {
+      scrollTopBtn.classList.add("mm-active");
+    } else {
+      scrollTopBtn.classList.remove("mm-active");
+    }
+  }
+
+  window.addEventListener("scroll", handleScroll);
+  window.addEventListener("load", handleScroll);
 });
 
-// fetch projects start
+// Fetch projects
 function getProjects() {
-    return fetch("projects.json")
-        .then(response => response.json())
-        .then(data => {
-            return data
-        });
+  return fetch("projects.json")
+    .then((response) => response.json())
+    .then((data) => data);
 }
-
 
 function showProjects(projects) {
-    let projectsContainer = document.querySelector(".fullWork .box-container");
-    let projectsHTML = "";
-    projects.forEach(project => {
-        projectsHTML += `
-        <div class="grid-item ${project.category}">
+  const container = document.querySelector(".fullWork .box-container");
+  let html = "";
+
+  projects.forEach((project) => {
+    html += `
+      <div class="grid-item ${project.category}">
         <div class="box tilt" style="margin: 1rem">
-      <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
-      <div class="content">
-        <div class="tag">
-        <h3>${project.name}</h3>
-        </div>
-        <div class="desc">
-          <p>${project.desc}</p>
-          <div class="btns">
-            <a href="${project.links.view}" class="mm-btn text-decoration-none" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="${project.links.code}" class="mm-btn text-decoration-none" target="_blank">Code <i class="fas fa-code"></i></a>
+          <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
+          <div class="content">
+            <div class="tag">
+              <h3>${project.name}</h3>
+            </div>
+            <div class="desc">
+              <p>${project.desc}</p>
+              <div class="btns">
+                <a href="${project.links.view}" class="mm-btn text-decoration-none" target="_blank"><i class="fas fa-eye"></i> View</a>
+                <a href="${project.links.code}" class="mm-btn text-decoration-none" target="_blank">Code <i class="fas fa-code"></i></a>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-    </div>`
-    });
-    projectsContainer.innerHTML = projectsHTML;
+      </div>`;
+  });
 
-    // filter items on button click
-    $('.button-group').on('click', 'button', function () {
-        $('.button-group').find('.is-checked').removeClass('is-checked');
-        $(this).addClass('is-checked');
+  container.innerHTML = html;
+
+  // Filter button active toggle
+  const buttonGroup = document.querySelector(".button-group");
+  if (buttonGroup) {
+    buttonGroup.addEventListener("click", function (e) {
+      if (e.target.tagName === "BUTTON") {
+        const current = buttonGroup.querySelector(".is-checked");
+        if (current) current.classList.remove("is-checked");
+        e.target.classList.add("is-checked");
+      }
     });
+  }
 }
 
-getProjects().then(data => {
-    showProjects(data);
-})
-// fetch projects end
+getProjects().then(showProjects);
 
-// Start of Tawk.to Live Chat
+// Tawk.to Live Chat
 var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
 (function () {
-    var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
-    s1.async = true;
-    s1.src = 'https://embed.tawk.to/60df10bf7f4b000ac03ab6a8/1f9jlirg6';
-    s1.charset = 'UTF-8';
-    s1.setAttribute('crossorigin', '*');
-    s0.parentNode.insertBefore(s1, s0);
+  var s1 = document.createElement("script"),
+    s0 = document.getElementsByTagName("script")[0];
+  s1.async = true;
+  s1.src = "https://embed.tawk.to/60df10bf7f4b000ac03ab6a8/1f9jlirg6";
+  s1.charset = "UTF-8";
+  s1.setAttribute("crossorigin", "*");
+  s0.parentNode.insertBefore(s1, s0);
 })();
-// End of Tawk.to Live Chat
 
-// disable developer mode
+// Disable developer mode
 document.onkeydown = function (e) {
-    if (e.keyCode == 123) {
-        return false;
-    }
-    if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
-        return false;
-    }
-    if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
-        return false;
-    }
-    if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
-        return false;
-    }
-    if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
-        return false;
-    }
-}
+  if (
+    e.keyCode === 123 || // F12
+    (e.ctrlKey && e.shiftKey && ["I", "C", "J"].includes(e.key.toUpperCase())) ||
+    (e.ctrlKey && e.key.toUpperCase() === "U")
+  ) {
+    return false;
+  }
+};
