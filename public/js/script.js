@@ -109,7 +109,7 @@ new Typed(".typing-text", {
 // Fetching and showing data
 async function fetchData(type = "skills") {
   const response = await fetch(
-    type === "skills" ? "skills.json" : "./projects/projects.json"
+    type === "skills" ? "/src/data/skills.json" : "/projects/projects.json"
   );
   return await response.json();
 }
