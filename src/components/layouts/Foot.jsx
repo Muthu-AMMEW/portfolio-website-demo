@@ -32,59 +32,56 @@ export default function Foot() {
 
     return (
         <>
-            <footer className="container-fluid bg-body-tertiary p-2 p-sm-5 pb-1 mm-navbg">
-                <div className="row">
+            {/* <!-- footer section starts --> */}
+            <section class="footer p-3 p-lg-4">
 
-                    <div className="col-6 col-md d-flex flex-column mb-2 justify-content-around">
-                        <h5>Social Networks</h5>
-                        <div>
-                            <Link to={"https://www.facebook.com/Muthu.AMMEW"}><i className="fa-brands fa-facebook fa-beat fa-2xl py-3 me-2 bg-white rounded-5" style={{ color: "#2568ef" }}></i></Link>
-                            <Link to={"https://x.com/Muthu_AMMEW"}><i className="fa-brands fa-square-x-twitter fa-shake fa-2xl py-3 me-2 bg-white rounded-5"></i></Link>
-                            <Link to={"https://www.instagram.com/muthu.ammew"}><i className="fa-brands fa-square-instagram fa-beat-fade fa-2xl py-3 me-2 bg-white rounded-5" style={{ color: "#ff7b00" }}></i></Link>
-                            <Link to={"https://www.linkedin.com/in/muthu-ammew"}><i className="fa-brands fa-linkedin fa-bounce fa-2xl py-3 me-2 bg-white rounded-5" style={{ color: "#0075d5" }}></i></Link>
-                        </div>
-                        <img src="/images/play-store.webp" className='install-button' onClick={handleClick} alt="Play Store App" title={titleName} width="160" height="50" />
-                        <img src="/images/app-store.webp" className='install-button' onClick={handleClick} alt="App Store App" title={titleName} width="160" height="50" />
-                    </div>
-                    <div className="col-6 col-md d-flex flex-column mb-2">
-                        <h5>About Portfolio</h5>
-                        <div>
-                            <a href="javascript:void(0)">Who We Are</a><br />
-                            <a href="javascript:void(0)">Blog</a><br />
-                            <a href="javascript:void(0)">Work With Us</a><br />
-                            <a href="javascript:void(0)">Investor Relations</a><br />
-                            <a href="javascript:void(0)">Report Fraud</a><br />
-                            <a href="javascript:void(0)">Press Kit</a><br />
-                            <a href="https://wa.me/918072499102?text=Hi" target="_blank" rel="noreferrer">Contact Us</a><br />
-                        </div>
-                    </div>
-                    <div className="col-6 col-md d-flex flex-column mb-2">
-                        <h5>For Portfolio</h5>
-                        <div>
-                            <a href="javascript:void(0)">Partner With Us</a><br />
-                            <a href="javascript:void(0)">Apps For You</a><br />
-                        </div>
-                    </div>
-                    <div className="col-6 col-md d-flex flex-column mb-2">
-                        <h5>Learn More</h5>
-                        <div>
-                            <a href="javascript:void(0)">Privacy</a><br />
-                            <a href="javascript:void(0)">Security</a><br />
-                            <a href="javascript:void(0)">Terms</a><br />
+                <div class="box-container d-flex justify-content-between flex-wrap row-gap-3">
+                    <div class="box text-white">
+                        <h3>Contact Info</h3>
+                        <p> <i class="fas fa-phone"></i>+91 80724 99102</p>
+                        <p> <a href="mailto:muthu.ammew333@gmail.com" target="_blank"><i class="fas fa-envelope"></i>
+                            muthu.ammew333@gmail.com</a></p>
+                        <p> <i class="fas fa-map-marked-alt"></i>Tamil Nadu, India</p>
+                        <div class="share">
+
+                            <a href="https://www.linkedin.com/in/muthu-ammew" class="fab fa-linkedin" target="_blank"></a>
+                            <a href="https://github.com/Muthu-AMMEW" class="fab fa-github" target="_blank"></a>
+                            <a href="mailto:muthu.ammew333@gmail.com" class="fas fa-envelope" target="_blank"></a>
+                            <a href="https://x.com/Muthu_AMMEW" class="fab fa-twitter" target="_blank"></a>
+                            <a href="https://t.me/Muthu_AMMEW" class="fab fa-telegram-plane" target="_blank"></a>
                         </div>
                     </div>
 
+                    <div class="box text-white">
+                        <h3>Quick Links</h3>
+                        <a href="#home"><i class="fas fa-chevron-circle-right"></i> Home</a>
+                        <a href="#about"><i class="fas fa-chevron-circle-right"></i> About</a>
+                        <a href="#skills"><i class="fas fa-chevron-circle-right"></i> Skills</a>
+                        <a href="#experience"><i class="fas fa-chevron-circle-right"></i> Experience</a>
+                        <a href="#work"><i class="fas fa-chevron-circle-right"></i> Work</a>
+                        <a href="#education"><i class="fas fa-chevron-circle-right"></i> Education</a>
+                    </div>
+
+                    <div class="box text-white">
+                        <h3>Portfolio</h3>
+                        <div className='d-flex flex-column justify-content-around'>
+                            <p>Thank you for visiting my personal portfolio website.</p>
+                            <img src="/images/play-store.webp" className='install-button mb-2' onClick={handleClick} alt="Play Store App" title={titleName} width="160" height="50" />
+                            <img src="/images/app-store.webp" className='install-button' onClick={handleClick} alt="App Store App" title={titleName} width="160" height="50" />
+                        </div>
+                    </div>
 
                 </div>
                 <hr />
                 <div>
-                    <p className="mb-0">By continuing past this page, you agree to our Terms of Service, Cookie Policy,
+                    <p className="mb-0 text-white">By continuing past this page, you agree to our Terms of Service, Cookie Policy,
                         Privacy Policy and Content Policies. All trademarks are properties of their respective owners.
-                        2008-2025 © Portfolio™ Ltd. All rights reserved.<a href="https://www.linkedin.com/in/muthu-ammew" className="text-black text-decoration-none">Designed by <span className="badge text-bg-success author">Muthu</span></a>
+                        2008-2025 © Portfolio™ Ltd. All rights reserved. <a href="https://www.linkedin.com/in/muthu-ammew" className="text-white text-decoration-none">Designed by <span className="badge text-bg-success author">Muthu</span></a>
                     </p>
                 </div>
 
-            </footer>
+            </section>
+            {/* <!-- footer section ends --> */}
         </>
     )
 }

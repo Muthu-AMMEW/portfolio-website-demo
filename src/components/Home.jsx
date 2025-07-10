@@ -22,8 +22,6 @@ export default function Home() {
             {loading ? <Loader /> :
                 <>
                     <MetaData title={'Muthu Arivazhagan'} />
-                   
-
 
                     {/* <!-- hero section starts --> */}
                     <section class="home px-lg-3" id="home">
@@ -313,47 +311,7 @@ export default function Home() {
                         </div>
                     </section>
                     {/* <!-- contact section ends --> */}
-
-
-                    {/* <!-- footer section starts --> */}
-                    <section class="footer p-3 p-lg-4">
-
-                        <div class="box-container d-flex justify-content-between flex-wrap row-gap-3">
-                            <div class="box text-white">
-                                <h3>Contact Info</h3>
-                                <p> <i class="fas fa-phone"></i>+91 80724 99102</p>
-                                <p> <a href="mailto:muthu.ammew333@gmail.com" target="_blank"><i class="fas fa-envelope"></i>
-                                    muthu.ammew333@gmail.com</a></p>
-                                <p> <i class="fas fa-map-marked-alt"></i>Tamil Nadu, India</p>
-                                <div class="share">
-
-                                    <a href="https://www.linkedin.com/in/muthu-ammew" class="fab fa-linkedin" target="_blank"></a>
-                                    <a href="https://github.com/Muthu-AMMEW" class="fab fa-github" target="_blank"></a>
-                                    <a href="mailto:muthu.ammew333@gmail.com" class="fas fa-envelope" target="_blank"></a>
-                                    <a href="https://x.com/Muthu_AMMEW" class="fab fa-twitter" target="_blank"></a>
-                                    <a href="https://t.me/Muthu_AMMEW" class="fab fa-telegram-plane" target="_blank"></a>
-                                </div>
-                            </div>
-
-                            <div class="box text-white">
-                                <h3>Quick Links</h3>
-                                <a href="#home"><i class="fas fa-chevron-circle-right"></i> Home</a>
-                                <a href="#about"><i class="fas fa-chevron-circle-right"></i> About</a>
-                                <a href="#skills"><i class="fas fa-chevron-circle-right"></i> Skills</a>
-                                <a href="#experience"><i class="fas fa-chevron-circle-right"></i> Experience</a>
-                                <a href="#work"><i class="fas fa-chevron-circle-right"></i> Work</a>
-                                <a href="#education"><i class="fas fa-chevron-circle-right"></i> Education</a>
-                            </div>
-
-                            <div class="box text-white">
-                                <h3>Portfolio</h3>
-                                <p>Thank you for visiting my personal portfolio website.</p>
-                            </div>
-
-                        </div>
-
-                    </section>
-                    {/* <!-- footer section ends --> */}
+                    
                     {/* <!-- scroll top btn --> */}
                     <a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
                     {/* <!-- scroll back to top --> */}
