@@ -369,7 +369,7 @@ header .mm-navbar ul li a:hover {
 }
 
 #scroll-top.mm-active {
-  top: calc(100% - 7.5rem);
+  top: calc(100% - 4.5rem);
 }
 
 /* scroll top ends */
