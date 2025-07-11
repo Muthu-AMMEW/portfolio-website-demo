@@ -120,19 +120,20 @@ function showSkills(skills) {
 function showProjects(projects) {
   const container = document.querySelector("#work .box-container");
   container.innerHTML = projects
-    .filter((p) => p.category !== "android")
     .slice(0, 4)
     .map(
-      (p) => `
+      (project) => `
       <div class="box tilt">
-        <img draggable="false" src="/public/images/projects/${p.image}.png" alt="project" />
+        <img draggable="false" src="/public/images/projects/${project.image}.png" alt="project" />
         <div class="content">
-          <div class="tag"><h3>${p.name}</h3></div>
+          <div class="tag">
+            <h3>${project.name}</h3>
+          </div>
           <div class="desc">
-            <p>${p.desc}</p>
+            <p>${project.desc}</p>
             <div class="btns">
-              <a href="${p.links.view}" class="mm-btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-              <a href="${p.links.code}" class="mm-btn" target="_blank">Code <i class="fas fa-code"></i></a>
+              <a href="${project.links.view}" class="mm-btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+              <a href="${project.links.code}" class="mm-btn" target="_blank">Code <i class="fas fa-code"></i></a>
             </div>
           </div>
         </div>

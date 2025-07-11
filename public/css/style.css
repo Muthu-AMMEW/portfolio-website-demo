@@ -602,6 +602,7 @@ header .mm-navbar ul li a:hover {
   background: #310ae0f5;
 }
 
+/*Viewall button */
 .work .viewall {
   display: flex;
   justify-content: center;
