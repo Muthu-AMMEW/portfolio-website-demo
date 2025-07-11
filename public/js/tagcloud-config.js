@@ -34,10 +34,11 @@ function applyRandomColors() {
   const spans = document.querySelectorAll("#tagcloud span");
   spans.forEach(span => {
     span.style.color = getRandomColor();
+    span.style.fontWeight = "bold";
   });
 }
 
 setTimeout(() => {
   applyRandomColors();
-  setInterval(applyRandomColors, 2000);
+  setInterval(applyRandomColors, 1500);
 }, 100);

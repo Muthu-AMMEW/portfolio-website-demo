@@ -107,7 +107,7 @@ function showSkills(skills) {
   container.innerHTML = skills
     .map(
       (skill) => `
-      <div class="bar" style="width: 9.5rem;">
+      <div class="bar tilt" style="width: 9.5rem;">
         <div class="info">
           <img src="${skill.icon}" alt="skill" />
           <span>${skill.name}</span>

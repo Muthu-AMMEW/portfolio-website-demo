@@ -79,6 +79,10 @@ function showProjects(projects) {
       }
     });
   }
+
+  VanillaTilt.init(document.querySelectorAll(".tilt"), {
+    max: 15,
+  });
 }
 
 
