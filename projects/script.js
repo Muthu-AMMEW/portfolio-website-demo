@@ -33,7 +33,7 @@ function getProjects() {
 }
 
 function showProjects(projects) {
-  const container = document.querySelector(".fullWork .box-container");
+  const container = document.querySelector("#fullWork .box-container");
   let html = "";
 
   projects.forEach((project) => {
