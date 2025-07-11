@@ -314,7 +314,8 @@ header .mm-navbar ul li a:hover {
   display: inline-block;
   margin-bottom: 8.75px;
 }
-.socials .social-icons li i{
+
+.socials .social-icons li i {
   padding-top: 0.5rem;
 }
 
@@ -345,8 +346,8 @@ header .mm-navbar ul li a:hover {
   background-color: #0e0e0e;
 }
 
-.social-icons a.twitter:hover {
-  background-color: #00aced;
+.social-icons a.hackerrank:hover {
+  background-color: #19ad5c;
 }
 
 .social-icons a.linkedin:hover {
@@ -357,8 +358,8 @@ header .mm-navbar ul li a:hover {
   background-color: #070707;
 }
 
-.social-icons a.instagram:hover {
-  background-color: #ee00da;
+.social-icons a.whatsapp:hover {
+  background-color: #128C7E;
 }
 
 /* social icons end */
@@ -485,6 +486,7 @@ header .mm-navbar ul li a:hover {
   font-family: "Poppins";
   margin-left: 0.31rem;
 }
+
 /* skills section ends */
 
 /* experience section starts */
@@ -807,7 +809,7 @@ header .mm-navbar ul li a:hover {
   box-shadow: 0 3.13px 6.25px rgba(0, 0, 0, 0.15);
 }
 
-.contact .container form input{
+.contact .container form input {
   min-width: 25rem;
 }
 
@@ -894,6 +896,10 @@ form i {
   transform: scale(0.98);
   border: 0.06rem solid rgb(180, 178, 178);
   color: #ffae00;
+}
+
+.author:hover {
+  transform: scale(1.6);
 }
 
 @-webkit-keyframes pound {

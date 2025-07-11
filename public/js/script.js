@@ -80,18 +80,6 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
-// Visibility change
-document.addEventListener("visibilitychange", function () {
-  const favicon = document.getElementById("favicon");
-  if (document.visibilityState === "visible") {
-    document.title = "Portfolio | Muthu Arivazhagan";
-    favicon.setAttribute("href", "public/images/favicon.png");
-  } else {
-    document.title = "Come Back To Portfolio";
-    favicon.setAttribute("href", "public/images/favhand.png");
-  }
-});
-
 // Typed.js
 new Typed(".typing-text", {
   strings: [
@@ -206,8 +194,8 @@ srtop.reveal(".home .content h3, .home .content p, .home .content .mm-btn", {
 srtop.reveal(".home .image", { delay: 400 });
 srtop.reveal(".home .linkedin", { interval: 600 });
 srtop.reveal(".home .github", { interval: 800 });
-srtop.reveal(".home .twitter", { interval: 1000 });
-srtop.reveal(".home .telegram, .home .instagram, .home .dev", {
+srtop.reveal(".home .hackerrank", { interval: 1000 });
+srtop.reveal(".home .telegram, .home .whatsapp, .home .dev", {
   interval: 600,
 });
 srtop.reveal(
