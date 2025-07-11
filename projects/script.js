@@ -59,18 +59,28 @@ function showProjects(projects) {
 
   container.innerHTML = html;
 
-  // Filter button active toggle
+  // Filtering without Isotope
   const buttonGroup = document.querySelector(".button-group");
+  const allItems = container.querySelectorAll(".grid-item");
+
   if (buttonGroup) {
     buttonGroup.addEventListener("click", function (e) {
       if (e.target.tagName === "BUTTON") {
         const current = buttonGroup.querySelector(".is-checked");
         if (current) current.classList.remove("is-checked");
         e.target.classList.add("is-checked");
+
+        const filter = e.target.getAttribute("data-filter"); // e.g. ".web" or "*"
+
+        allItems.forEach((item) => {
+          const matches = filter === "*" || item.classList.contains(filter.slice(1));
+          item.style.display = matches ? "block" : "none";
+        });
       }
     });
   }
 }
+
 
 getProjects().then(showProjects);
 
