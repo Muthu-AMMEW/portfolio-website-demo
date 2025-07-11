@@ -370,7 +370,7 @@ header .mm-navbar ul li a:hover {
   background: rgb(255, 255, 255);
 }
 
-.about .image img {
+/* .about .image img {
   max-width: 15rem;
   box-shadow: 0 3.13px 6.25px rgba(0, 0, 0, 0.6);
   mix-blend-mode: luminosity;
@@ -380,6 +380,9 @@ header .mm-navbar ul li a:hover {
 
 .about .image img:hover {
   mix-blend-mode: normal;
+} */
+#tagcloud span {
+  transition: color 0.5s ease;
 }
 
 .about .content .box-container {
