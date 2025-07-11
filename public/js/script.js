@@ -124,7 +124,7 @@ function showProjects(projects) {
     .map(
       (project) => `
       <div class="box tilt">
-        <img draggable="false" src="/public/images/projects/${project.image}.png" alt="project" />
+        <img draggable="false" src="${project.image}" alt="project" />
         <div class="content">
           <div class="tag">
             <h3>${project.name}</h3>
