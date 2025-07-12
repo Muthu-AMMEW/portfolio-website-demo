@@ -211,3 +211,11 @@ srtop.reveal(".education .timeline .mm-container", { interval: 400 });
 srtop.reveal(".contact .container, .contact .container #contact-form", {
   delay: 400,
 });
+
+//SWC Code Starts
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('public/sw.js')
+    .then(() => console.log('✅ Service Worker registered'))
+    .catch(error => console.error('❌ SW registration failed:', error));
+}
+//SWC Code Ends
