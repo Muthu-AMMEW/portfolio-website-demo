@@ -14,11 +14,11 @@ function createInstallButtons(containerSelector = 'body') {
     container.appendChild(img);
   });
 
-  playStoreImg.src = '/public/images/play-store.webp';
+  playStoreImg.src = '/public/images/no-play-store.png';
   playStoreImg.alt = 'Play Store App';
   playStoreImg.classList.add('mb-2');
 
-  appStoreImg.src = '/public/images/app-store.webp';
+  appStoreImg.src = '/public/images/no-app-store.png';
   appStoreImg.alt = 'App Store App';
 
   const updateTitle = ({ isStandalone, canInstall, cannotInstall }) => {
@@ -47,7 +47,7 @@ function createInstallButtons(containerSelector = 'body') {
     } else if (canInstall) {
       await pwaInstallPrompt.promptInstall();
     } else if (cannotInstall) {
-      alert('This app could not install on your device.');
+      alert('This app could not install or already installed on your device.');
     } else {
       alert('This app is already installed.');
     }
