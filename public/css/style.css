@@ -952,3 +952,8 @@ form i {
 }
 
 /* scroll top ends */
+
+.install-button:hover {
+  cursor: pointer;
+  transform: scale(1.11);
+}
